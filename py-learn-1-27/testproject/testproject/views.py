@@ -1,8 +1,12 @@
 from django.http import HttpResponse,HttpResponseRedirect
 from django.shortcuts import render
+from .forms import UserForm
 
 def home(request):
+    form_fn = UserForm()
+    
     data={
+        'const_form': form_fn,
         'dataTitle':"Test P Home",
         'bodyData':"Hell o I am the body.\n What did you learn yesterday?\n",
         'courseList': ["PHP","Python","Javascript"],
