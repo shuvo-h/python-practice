@@ -1,0 +1,22 @@
+{% extends 'homeComponents/basefile.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <main>
+        <div>
+            {% block middleBlockSectionName %}
+                <h1 class="red_color">Hello from About page</h1>
+                <u><i>You are on thw right page to know more</i></u>
+                <output>Extending this section to use in other file</output>
+                <div>Hey cut this section and shoy in other file block section</div>
+            {% endblock %}
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/static/css/home.css">
+</head>
+<body>
+    {% include "homeComponents/header.html" %}
+    <main>
+        <h2>Contact US</h2>
+        <div>
+            <form method="get">
+                <label for="">Name
+                    <input type="text" name="name" placeholder="Name">
+                </label>
+                <br>
+                <label for="">password
+                    <input type="password" name="password" placeholder="password">
+                </label>
+                <br>
+                <label for="">Role No.
+                    <input type="number" name="roll" placeholder="roll">
+                </label>
+                <br>
+                <button>Save (GET)</button>
+            </form>
+            <div>
+                <h4>Output: (GET)</h4>
+                <p>Name: {{result_data.name}} | password: {{result_data.password}} | roll: {{result_data.roll}}</p>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <form method="POST">
+                {% csrf_token %}
+                <label for="">Village
+                    <input type="text" name="village" value="{{ result_post_data.village_data }}" placeholder="village">
+                </label>
+                <br>
+                <label for="">Country
+                    <input type="text" name="country" value="{{ result_post_data.country_data }}" placeholder="country">
+                </label>
+                <br>
+                <button type="submit">Save (POST)</button>
+            </form>
+            <div>
+                <h4>Output: (POST)</h4>
+                <p>Village: {{result_post_data.village_data}} | Country: {{result_post_data.country_data}}</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

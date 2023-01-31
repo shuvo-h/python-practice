@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{dataTitle}}</title>
+
+    <link rel="stylesheet" href="/static/css/home.css">
+</head>
+<body>
+    {% include "homeComponents/header.html" %}
+    <main>
+        <h1 class="red_color">Hi Home How are you? </h1>
+        <p>{{bodyData}}</p>
+        <img src="/static/imgs/animation_imgage.png" width="250" alt="">
+        <div>
+            <h4>Course List: </h4>
+            <ul>
+                {% for el in courseList%}
+                <li>{{forloop.revcounter0}} _ {{el}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div>
+            <table border="1" cellpadding="10">
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                </tr>
+                {% for tableData in student_details %}
+                <tr>
+                    <td>{{tableData.name}}</td>
+                    <td>{{tableData.phone}}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <div>
+            <h3>If Else statement:</h3>
+            {% if numbers|length > 0 %}
+                {% for number in numbers %}
+                    {% if number > 30 %}
+                        <div>{{number}}</div>
+                    {% endif %}
+                    <div>{{number}}</div>
+                {% endfor %}
+            {% else %}
+                <u>No Data found</u>
+            {% endif %}
+
+        </div>
+    
+
+    </main>
+</body>
+</html>

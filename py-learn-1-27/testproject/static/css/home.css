@@ -1,0 +1,23 @@
+.red_color{
+    background-color: rgb(70, 116, 10);
+    color: blue;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+}
+.nav-bar li a{
+    display: block;
+    padding: 8px 14px;
+    background-color: rgb(188, 236, 188);
+}
+.nav-bar li a:hover{
+    background-color: rgb(80, 119, 170);
+}
+.active{
+    background-color: rgb(185, 44, 44) !important;
+    color: yellow !important;
+}
+.nav-bar li {
+    list-style: none;
+}

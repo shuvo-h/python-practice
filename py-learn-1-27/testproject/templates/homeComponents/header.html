@@ -1,0 +1,12 @@
+
+<section>
+    <nav class="nav-bar">
+        <!-- {{request}} -->
+        <li><a class="{% if request.path == '/' %}active{% endif %}"  href="{% url 'home' %}">Home</a></li>
+        <li><a class="{% if request.path == '/about/' %}active{% endif %}" href="{% url 'about' %}">About</a></li>
+        <li><a class="{% if request.path == '/contact-us/' %}active{% endif %}" href="/contact-us">Contact US</a></li>
+        <li><a href="/courses">Courses</a></li>
+        <li><a href="/services">Services</a></li>
+    </nav>
+    <h3>It is Header file loading to main file by including</h3>
+</section>
