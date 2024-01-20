@@ -1,0 +1,62 @@
+- input("UI text for level:")
+- int() // to convert string to number
+- for index,element of enumerate(listVarname):
+    break
+    continue
+- while(condition):
+
+String operations:
+    - stringVar[0:len(stringVar-3)]         // take a portion of string based on index
+    - len()
+    - capitalize()
+    - upper()
+    - lower()
+    - rstrip("")                             // remove characters from right side
+    - lstrip("changedChar")                  // remove characters from left side
+    - replace("oldChar","newChar")
+    - split(".")                               // transform to a list[]
+    - center()                              // add extra blank space to keep the text center
+    - count("")                               // count the given postion
+    - endswith("")
+    - startswith("")
+    - find("")
+    - index("")
+    - isalnum()                             // check if string is only /"A-Z","a-z",0-9/
+    - isalpha()                             // check if string is only /"A-Z","a-z"/    no number
+    - islower()
+    - isupper()
+    - isprintable()
+    - isspace()
+    - istitle()         // if only the first letter of each word is capitalized 
+    - swapcase()        // change the characters casing. uppercase chars convert to lowercase and lowercase characters convert to uppercase 
+
+common methods and logics #
+    -if():elif():else:
+    - match paramName:  // switch-case
+        case 0:
+            print("paramName is ZERO")
+        case 1:
+            print("paramName is ONE")
+        case 4 if paramName % 2 == 0:
+            print("paramName is 4 amd it is odd number")
+        case _:
+            print("default value if not match any case")
+    - while(condition):
+    - range(startNumber,endnumber,stepNumber=1)       // iterable numbers
+    - def functionName(param1,param2,*rest_args):
+    - pass      // it will allow to execute code without writing the code inside a function by allowing to write in later
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
