@@ -54,6 +54,11 @@ def makeFactorial(n):
     else:
         return n * makeFactorial(n-1)
 # print(makeFactorial(1))
+
+age1 = 10
+age2 = 20
+person = 'adult' if age1 > age2 else 'teen'   # if else short hand
+# print(person)
     
 
 def makeFibonacciSeries(n):
@@ -75,6 +80,7 @@ def makeFibonacciSeries(n):
 
 
 # makeFibonacciSeries(10)
+
 
 # set : unordered collection list, no duplicate value, values are readonly
 carSet_1 = {'BMW',36000,True,'green','available'}
@@ -119,7 +125,7 @@ dictionaryVar2 = {
 # print(dictionaryVar.items())
 # for key, value in dictionaryVar.items():
 dictionaryVar.update(dictionaryVar2)
-print(dictionaryVar)
+# print(dictionaryVar)
 """
     - values()
     - keys()
@@ -131,3 +137,32 @@ print(dictionaryVar)
     - popItem()             // remove the last property
 
 """
+
+# map 
+itemList = [1,2,3,4,5]
+def customMapFn(item):
+    return 2*item
+doubleMaped = map(customMapFn,itemList)
+doubleList = list(doubleMaped)
+print(doubleList)
+
+# filter 
+def customFilterFn(element):
+    if element % 2 == 0:
+        return True
+    else:
+        return False
+filteredElms = filter(customFilterFn,itemList)
+filterList = list(filteredElms)
+print(filterList)
+
+# reduce
+from functools import reduce 
+initalSumValue = 0
+def customEvenNumberSumFn(result,currentItem):
+    if currentItem % 2 == 0:
+        return result + currentItem
+    else:
+        return result
+totalOfEvenNumbers = reduce(customEvenNumberSumFn,itemList,initalSumValue)
+print(totalOfEvenNumbers)
