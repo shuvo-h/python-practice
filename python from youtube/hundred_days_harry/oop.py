@@ -111,3 +111,4 @@ import requests
 response = requests.get("https://jsonplaceholder.typicode.com/photos")
 data = response.json()
 print(data)
+
