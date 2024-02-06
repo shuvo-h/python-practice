@@ -1,4 +1,7 @@
+py_module
+__pycache__
 env_module
 py_env_module
+
 # .flaskenv
 # .env 
