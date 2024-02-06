@@ -22,7 +22,7 @@ def create_app():
     app.register_blueprint(views_bp,url_prefix='/')
     app.register_blueprint(auth_bp,url_prefix='/auth')
 
-    # import database models
+    # import database models so that it can be accessed from whole app 
     from .models import User, Note
     create_database(app)
 
