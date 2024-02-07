@@ -1,0 +1,4 @@
+py_module
+__pycache__
+instance
+.env
