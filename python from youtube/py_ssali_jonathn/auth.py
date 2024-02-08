@@ -1,5 +1,6 @@
 from flask import Blueprint,jsonify,request
-from modules import User
+from models import User, TokenBlocklist
+from flask_jwt_extended import create_access_token,create_refresh_token,jwt_required, get_jwt,current_user, get_jwt_identity
 
 auth_bp = Blueprint("auth",__name__)
 
@@ -20,3 +21,65 @@ def register_user():
 
     return jsonify({'message':"User created"}), 201
 
+
+@auth_bp.post('/login')
+def login_user():
+    data = request.get_json()
+
+    username = data.get('username')
+    password = data.get('password')
+
+    user = User.get_user_by_username(username=username)
+    print(user,username,password)
+    if user and (user.check_password(password)):
+        access_token = create_access_token(identity=user.username)
+        refresh_token = create_refresh_token(identity=user.username)
+        return jsonify(
+            {
+                'message':"Loggedin successfully!",
+                "tokens":{
+                    'access': access_token,
+                    'refresh':refresh_token
+                }
+            }
+        ), 200
+    return jsonify({"error":"Invalid username or password"}),400
+
+@auth_bp.get('/whoami')
+@jwt_required()
+def whoami():
+    claims = get_jwt()
+    return jsonify({
+        'message':"jwt who am i",
+        "claims":claims,
+        'user_details': {
+            'username': current_user.username,
+            'email': current_user.email,
+        }
+    })
+
+@auth_bp.get('/refresh')
+@jwt_required(refresh=True)
+def refresh_access():
+    identity = get_jwt_identity()
+
+    new_access_token = create_access_token(identity=identity)
+    return jsonify({
+        "access_token": new_access_token
+    }),200
+
+# block the token if logout, and check by middleware @token_in_blocklist_loader in main.py
+@auth_bp.get('/logout')
+@jwt_required(verify_type=False)
+def logout_user():
+    jwt = get_jwt()
+    jti = jwt['jti']
+    token_type = jwt['type']
+
+
+    token_b = TokenBlocklist(jti=jti)
+    token_b.save()
+
+    return jsonify({
+        "message": f"{token_type} token revoked successfully to logout!"
+    }),200
