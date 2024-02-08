@@ -1,4 +1,6 @@
 py_module
+py_modules
+_py_modules
 __pycache__
 instance
 .env
