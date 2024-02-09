@@ -1,0 +1,10 @@
+1. Send email
+2. video convert
+3. real time data transfer like socket.io
+4. web scraping
+5. jwt auth
+6. version management programmatically, /api/v1/.., /api/v2/..
+7. global error handler
+8. notFoundhalder
+9. try catch wrapper
+
