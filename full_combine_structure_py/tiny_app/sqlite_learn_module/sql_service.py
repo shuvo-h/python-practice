@@ -1,4 +1,5 @@
 from tiny_app.sqlite_learn_module.sql_user_model import People
+from .sql_pet_model import Pet
 
 from config.database import db
 from datetime import datetime
@@ -29,6 +30,7 @@ def insertSingleDoc(newUserInfo):
     except Exception as e:
         print(e)
         return {'message': str(e)}
+
 
 
 def get_all_docs_fromDb(query_params):
@@ -99,3 +101,38 @@ def get_all_docs_fromDb(query_params):
         return {'err_message': str(e)} 
     
 
+
+def insertPetWithRefDoc(petInfo):
+    try:
+        name = petInfo.get('name')
+        age = petInfo.get('age')
+        owner_id = petInfo.get('owner_id')
+
+        # create the new doc
+        newPet = Pet(name=name,age=age,owner_id=owner_id)
+
+        db.session.add(newPet)
+        db.session.commit()
+
+        # retun the new doc without password
+        result = newPet.to_dict_MYTILS()
+        
+        return result
+
+    except Exception as e:
+        print(e)
+        return {'message': str(e)}
+
+
+
+# get all pet list with People info
+def getPetList():
+    try:
+        petInstances = Pet.query.all()
+        petDictList = [(petInstance.to_dict_MYTILS()) for petInstance in petInstances]
+        return {
+            "data": petDictList
+        }
+    except Exception as e:
+        print(e)
+        return {'err_message': str(e)} 
