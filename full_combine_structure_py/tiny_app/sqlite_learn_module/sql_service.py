@@ -29,6 +29,7 @@ def insertSingleDoc(newUserInfo):
 
     except Exception as e:
         print(e)
+        db.session.rollback()
         return {'message': str(e)}
 
 
@@ -98,6 +99,7 @@ def get_all_docs_fromDb(query_params):
         }
     except Exception as e:
         print(e)
+        db.session.rollback()
         return {'err_message': str(e)} 
     
 
@@ -121,6 +123,7 @@ def insertPetWithRefDoc(petInfo):
 
     except Exception as e:
         print(e)
+        db.session.rollback()
         return {'message': str(e)}
 
 
@@ -135,4 +138,5 @@ def getPetList():
         }
     except Exception as e:
         print(e)
+        db.session.rollback()
         return {'err_message': str(e)} 

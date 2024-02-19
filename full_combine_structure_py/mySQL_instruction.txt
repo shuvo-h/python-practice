@@ -1,0 +1,11 @@
+SQL power shell connection commands:
+# switch sql terminal in shell
+\sql
+
+# connect to database 
+\connect username@hostname:port
+\connect root@localhost:3306
+
+# see list of exist databases
+SHOW DATABASES;
+
