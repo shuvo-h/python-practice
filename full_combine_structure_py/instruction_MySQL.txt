@@ -9,3 +9,6 @@ SQL power shell connection commands:
 # see list of exist databases
 SHOW DATABASES;
 
+
+
+MySQL commands:

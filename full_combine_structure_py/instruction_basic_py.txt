@@ -1,0 +1,86 @@
+PY special keywords:
+    - as, assert, break, continue, def, del
+    - elif, else, except,
+    - lambda, is, is not, None,
+    - in, not in,
+    - nonlocal: it is used to declare variable in a child function to tell that the variable is not local of that nested function.
+    - not, or, pass, raise
+    - with: to handle exception, 
+    - yield: To return a list of values from a generator. Alternative of 'return' but we for multiple times call.
+
+
+
+
+variable:
+    variables are case sensitive. A & a are two different variable.
+    - casting:  str(20), 
+                int('20'),
+                float('20.32')
+                bool(1)
+                list((1,2,3))  // convert tuple to list
+                tuple([1,2,3]) // convert list to tuple
+                set([1,2,3])    // convert list to set
+                dict([(1,'one'),(2,'two'),(3,'three'),...])   // convert list of tuple to dictionary
+                ord('a')         // convert character to Unicode integer representation
+
+    type(): get the type of a variable. ie, type(age) == str | int | float
+
+
+String:
+    text = """random string"""
+    - text[idx], text[startPosition : endPosition]          // positional access
+    - for  eachChar in text:                                // loop on string
+    - len(text)                                             // length of string 
+    - if('char' in text), if('char' not in text)            // check if a part of string is present or not 
+    - text.upper(), text.lower(), text.split(",")
+    - text.replace("old string","new string")
+    - text.strip(),
+    - capitalize(), casefold(), count(),
+    - endswith(), startswith()
+    - find(), index(),
+    - isalnum(), isalpha(), isascii(), isdecimal(), isdigit()
+    - islower(), isnumeric(), isspace(), istitle(), isupper()
+    - capitalize()
+    - capitalize()
+    - capitalize()
+    - capitalize()
+
+
+List:
+    list = ['apple','banana']
+    list = (('apple','banana'))     // create list from tuple
+    - len(list)
+    - type(list) == list
+    - list[startIndex : endIndex], list[1], list[-1], 
+    - list[startIdx,endIdx] = ['item1','item2','item3']    // change a range of elements like 3rd index list[3] = 'item33'. If insert less items than you replace, the new items will be inserted, and the remaining positioned items will removed as empty.
+    - list.insert(indexNumber, item)                        // insert at specific index, it don't remove any existing item.
+    - list.append(item)                                     // insert at the end of the list
+    - list1.extend(list2)  OR    list1.extend(tuple2)       // append another list or tuple. it modify the original list. Similar to list1 = [...list1,list2];
+    - list.remove(item)                                     // it will remove the specified item
+    - list.pop(indexNumber)                                 // remove the specified indexed item, if not given the index, the last element will be removed
+    - del list[index]                                       // delete the specified element like pop
+    - del list                                              // delete the entire list
+    - list.clear()                                          // remove all elements from the list
+    - if 'apple' in list:
+    - for item in list:
+    - [print(item) for item in list]  OR [print(list[idx]*2) for idx in range(len(list))]   // it also works for tuple.
+    - [print(item) for item in listOrTuple if condition == True]
+    - list.sort(reverse = True, key= myCustomFunction, key=str.lower)                  // sort list: def myCustomFunction(item){return item - 5}
+    - list.reverse()
+    - list2 = list1.copy()  OR list2 = list(list1)                                      // copy list: use built-in-method or constructor
+    - list3 = list1 + list2 OR list1.extend(list2) OR loop on list2 and append to list1 // join list
+    - list.count("item")                                    // how much time "item" element is present in the list
+
+
+Tuples:
+Sets:
+Dictionary:
+
+
+
+
+
+
+
+
+
