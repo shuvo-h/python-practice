@@ -154,6 +154,48 @@ Dictionary:
     - dict2 = dict1.copy()
 
 
+Conditions:
+    - if (): elif(): else:
+    - if(): print("inline condition")
+    - print("Yes") if(condition) else print("No")       // ternary operation
+    - AND, OR, NOT, PASS, CONTINUE, BREAK,
+    - while(): else:
+    
+Loop:
+    - for item in list: else: print("Finished loop")            // else block will be executed each time after finish the for loop; but if we stop loop by "break", the else block will not be executed 
+    - for item in list,string,range(x,y): else: print("Finished loop")
+
+Function:
+    - def funcName(arg1,arg2,*argN):        // *argN is a tuple on unlimited argument
+        funcName("one", {"age":5},['apple'])
+        funcName(arg2="two", arg1=45,)
+    - def funcName(**args): print(args['age'],args['subject'])
+        funcName(age=14,subject="science")
+    
+Lambda:
+    - lambda is alternative of anymous function but must complete within a single line
+    - lambda args: expression     
+        eg. addFive = lambda num: num+5
+            multiply = lambda num1,num2: num1 * num2
+
+
+class in python:
+    class Person:
+        def __init__(self,name,age):    // constructor method
+            self.name = name
+            self.age = age
+
+        def __str__(self):              // when we use the object variable, what will be returned
+            return f"{self.name} is {self.age} years old"
+        
+        def to_dict(self):
+            return {"name": self.name, "age": self.age}
+
+    danielObj = Person("Daniel",24)
+    print(danielObj)
+    print(danielObj.to_dict())
+
+
 
 
 
