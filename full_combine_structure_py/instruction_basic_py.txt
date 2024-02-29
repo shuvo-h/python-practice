@@ -180,8 +180,11 @@ Lambda:
 
 
 class in python:
-    class Person:
-        def __init__(self,name,age):    // constructor method
+    class PersonParent:
+        default_name = ""
+        default_age = ""
+
+        def __init__(self,name=default_name,age=default_age):    // constructor method
             self.name = name
             self.age = age
 
@@ -191,10 +194,33 @@ class in python:
         def to_dict(self):
             return {"name": self.name, "age": self.age}
 
-    danielObj = Person("Daniel",24)
+    danielObj = PersonParent("Daniel",24)
     print(danielObj)
     print(danielObj.to_dict())
 
+    // Inheritance of class 
+    class StudentChild(PersonParent):           // inheriet the PersonParent class and create a new class StudentChild
+        default_schoolName = ""
+        default_className = ""
+
+        def __init__(self,name,age,schoolName=default_schoolName,className=default_className):
+            super().__init__(name,age)
+            self.schoolName = schoolName
+            self.className = className
+
+
+        def __str__(self):
+            return f"{self.name} is {self.age} years old"
+
+        def to_dict(self):
+            parent_dict = super().to_dict()
+            parent_dict["schoolName"] = self.schoolName
+            parent_dict["className"] = self.className
+            return parent_dict
+
+williumSS = StudentChild("Willium",27,"St. Mari College","M.Tech. Networking")
+print(williumSS)
+print(williumSS.to_dict())
 
 
 
