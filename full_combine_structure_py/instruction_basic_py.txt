@@ -224,8 +224,56 @@ print(williumSS.to_dict())
 
 
 
+// json module
+    jsonVar = '{"name":"ab","roll":"12"}'
+    - json.load(jsonVar)                                        // convert into dictionary
+    - json.dumps(pyDict, indent=4, sort_keys=True, separators=(". ", " = "))        // convert into JSON
+    - 
+
+// Regex module re
+    - re.findall("^The.*Spain$", txt)
+    - re.search("^The.*Spain$", txt)
+    - re.split("^The.*Spain$", txt)
+    - re.sub("^The.*Spain$", txt)
 
 
+// try catch error handling
+try:
+    # Code that may raise exceptions
+except ZeroDivisionError as e:
+    print(e)
+except ValueError as e:
+    print(e)
+except TypeError as e:
+    print(e)
+except KeyError as e:
+    print(e)
+except IndexError as e:
+    print(e)
+except FileNotFoundError as e:
+    print(e)
+except IOError as e:
+    print(e)
+except AttributeError as e:
+    print(e)
+except NameError as e:
+    print(e)
+except ImportError as e:
+    print(e)
+except KeyboardInterrupt:
+    print("KeyboardInterrupt: Program terminated by user.")
+except MemoryError as e:
+    print(e)
+except Exception as e:
+    print(e)
+    logging.error(e)
+else:
+    print("no error occured")
+finally:
+    # Cleanup operations, if needed
+    print("Cleanup operations...")
 
 
-
+// throw new error manually
+raise Exception("your error message")
+raise TypeError("your error message")

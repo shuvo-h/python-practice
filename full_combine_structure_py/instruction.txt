@@ -46,3 +46,13 @@ external modules:
     >> flask run                            // run the server
 
 
+
+
+
+
+Database migration:
+Each time the database models change, repeat the migrate and upgrade commands
+    >> flask db init  						                // create a migration directory
+    >> flask db migrate -m "name of migration message"		// generate migration script with the latest schema
+    >> flask db upgrade					                    // apply migration script to database
+

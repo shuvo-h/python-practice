@@ -9,6 +9,16 @@ def create_combined_app():
     app = Flask(__name__)
 
     # configure app to add all secret from env
+    # Call middleware configuration functions
+    # configure_cors(app)
+    # configure_logging(app)
+    # configure_csrf(app)
+    # configure_xss(app)
+    # configure_secure_cookies(app)
+    # configure_request_rate_limiting(app)
+    # configure_csp(app)
+
+
     # call config method and pass the app there
     db_connect(app)
     
@@ -27,6 +37,17 @@ def create_combined_app():
     @app.errorhandler(500)
     def internal_server_error(e):
         return jsonify({'success':False,"message":"Internal server error"}),500
+    
+    
+    # Configure versioning
+    # configure_versioning(app)
+
+    # Configure cache
+    # configure_cache(app)
+
+    # Configure background tasks
+    # configure_background_tasks(app)
+
 
 
     return app
