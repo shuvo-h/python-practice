@@ -1,17 +1,3 @@
-py_module
-py_modules
-_py_modules
-__pycache__
-instance
-.env
-
-env_module
-py_env_module
-
-# .flaskenv
-# .env
-
-# env ilist 
 node_modules
 venv
 .env
