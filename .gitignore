@@ -7,11 +7,12 @@ instance
 
 env_module
 py_env_module
+.venv
 
 # .flaskenv
 # .env
 
-# env ilist 
+# env ilist
 node_modules
 venv
 .env

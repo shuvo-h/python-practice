@@ -1,0 +1,24 @@
+>> pip3 install pipenv                          // install pip3
+>> pipenv install django                        // install django vertual environment
+>> pipenv shell                                 // active vertual environment shell sothat all installation go in this vertual folder
+>> django-admin                                 // get list of all command require on django project
+>> django-admin startproject projectName .      // create a new django project. Here projectName is the folder name and "." dot define not to create extra folder level
+>> django-admin runserver                       // to start a server
+>> python manage.py runserver 5000              // alternatively to run server with port
+
+
+use this process for individual environment folder
+>> python -m venv .venv
+>> .venv\Scripts\activate
+>> python -m pip install django
+>> django-admin startproject projectName .
+>> python manage.py runserver 5000
+
+>> python manage.py startapp newAppName     // to create a new app inside the project. include the appname in setting.py file
+
+
+
+
+
+
+
