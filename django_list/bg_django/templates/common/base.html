@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Load static files -->
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}| My WebApp {% endblock %}</title>
+
+
+    <!-- Common stylesheets -->
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+    <!-- Additional stylesheets for specific pages -->
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url 'blogs:blogs' %}">Home</a></li>
+                <li><a href="{% url 'machine_learning:machine' %}">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- Main content area -->
+    <main>
+        <section>
+            {% block myAlert %} {% endblock myAlert %}
+        </section>
+
+        {% block content %}
+        <!-- Content from child templates will go here -->
+        {% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
+    <!-- JavaScript files -->
+    <script src="{% static 'js/base.js' %}"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

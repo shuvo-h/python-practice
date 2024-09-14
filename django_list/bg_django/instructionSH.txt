@@ -16,6 +16,163 @@ use this process for individual environment folder
     - define your method in newAppName/views.py and return the http response
     - crate newAppName/urls.py file, and the include  the file routes into py_basic/urls.py file with include() method
 
+    - provide the template dir to the template list of setting.py
+    - provide the static dir to the STATIC_DIRS=[STATIC_DIR] list of setting.py
+
+
+
+
+
+
+
+
+
+-----------------template syntax-----------------------
+<!-- Basic Variable Interpolation -->
+{{ variable }}                 {# Outputs the value of 'variable' #}
+
+<!-- Filters -->
+{{ variable|lower }}            {# Converts 'variable' to lowercase #}
+{{ variable|upper }}            {# Converts 'variable' to uppercase #}
+{{ variable|length }}           {# Returns the length of 'variable' #}
+{{ variable|default:"N/A" }}    {# Outputs "N/A" if 'variable' is empty #}
+{{ variable|date:"Y-m-d" }}     {# Formats 'variable' as a date (e.g. 2024-09-14) #}
+{{ variable|truncatechars:20 }} {# Truncates 'variable' to 20 characters #}
+
+<!-- Commenting in Templates -->
+{# This is a comment. It won't be displayed in the final HTML #}
+
+<!-- If Condition -->
+{% if condition %}
+    <p>Condition is true</p>
+{% elif another_condition %}
+    <p>Another condition is true</p>
+{% else %}
+    <p>Condition is false</p>
+{% endif %}
+
+<!-- For Loop -->
+{% for item in item_list %}
+    <p>{{ item }}</p>
+{% empty %}
+    <p>No items found.</p>
+{% endfor %}
+
+<!-- Using a Loop Counter -->
+{% for item in item_list %}
+    <p>{{ forloop.counter }}: {{ item }}</p>  {# forloop.counter gives the current loop index #}
+{% endfor %}
+
+<!-- Using 'with' to create a temporary variable -->
+{% with total=object_list.count %}
+    <p>Total objects: {{ total }}</p>
+{% endwith %}
+
+<!-- Include Another Template -->
+{% include "partial_template.html" %}
+
+<!-- URL Tag (to reverse a URL) -->
+<a href="{% url 'url_name' %}">Link</a>
+
+<!-- Static Tag (for static files like images or CSS) -->
+<img src="{% static 'images/logo.png' %}" alt="Logo">
+
+<!-- Block and Extends (Template Inheritance) -->
+{% extends "base.html" %}       {# This template inherits from base.html #}
+{% block content %}
+    <p>This is the content block.</p>
+{% endblock %}
+
+<!-- CSRF Token (for forms) -->
+<form method="post">
+    {% csrf_token %}
+    <input type="text" name="name">
+</form>
+
+<!-- Autoescape Block (escape HTML output) -->
+{% autoescape on %}
+    {{ unsafe_html_variable }}
+{% endautoescape %}
+
+<!-- Custom Filter Example -->
+{{ my_value|multiply_by_two }}   {# Assuming 'multiply_by_two' is a custom filter #}
+
+
+
+
+<!-- Cycle Tag (Alternate between values in a loop) -->
+{% for item in item_list %}
+    <p class="{% cycle 'odd' 'even' %}">{{ item }}</p>
+{% endfor %}
+
+<!-- Firstof Tag (Displays the first non-empty variable) -->
+<p>{% firstof var1 var2 var3 "Default Value" %}</p>
+
+<!-- Now Tag (Display the current date/time) -->
+<p>Current date: {% now "Y-m-d H:i" %}</p>
+
+<!-- Regroup Tag (Grouping items by a common field) -->
+{% regroup items by category as grouped_items %}
+<ul>
+    {% for group in grouped_items %}
+    <li>{{ group.grouper }}
+        <ul>
+            {% for item in group.list %}
+            <li>{{ item.name }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+
+<!-- Verbose Filter (Used with verbose_name in models) -->
+<p>{{ model_instance.field|verbose_name }}</p>
+
+<!-- Pluralize Filter (Handle pluralization automatically) -->
+<p>{{ item_count }} item{{ item_count|pluralize }}</p>  {# Outputs "1 item" or "2 items" #}
+
+<!-- Add Filter (Perform basic math operations) -->
+<p>Result: {{ value1|add:value2 }}</p>
+
+<!-- Slice Filter (Extract a slice of a list) -->
+<p>First 5 items: {{ items|slice:":5" }}</p>
+
+<!-- String Filters -->
+{{ string_value|capfirst }}      {# Capitalizes the first letter #}
+{{ string_value|title }}         {# Capitalizes each word #}
+{{ string_value|linebreaks }}    {# Converts newlines into <p> tags #}
+{{ string_value|striptags }}     {# Removes HTML tags #}
+
+<!-- Dictsort Filter (Sort a list of dictionaries by a key) -->
+{% for item in items|dictsort:"key_name" %}
+    <p>{{ item.key_name }}</p>
+{% endfor %}
+
+<!-- Escape and Safe (For HTML Escaping/Unescaping) -->
+<p>{{ html_variable|escape }}</p>  {# Escapes HTML characters #}
+<p>{{ html_variable|safe }}</p>    {# Marks content as safe to render HTML #}
+
+<!-- Template Debugging (Raises exception if variable is missing) -->
+{{ my_variable|default_if_none:"No value found" }}
+
+<!-- Load Tag (Load custom template tags or filters) -->
+{% load custom_tags %}  {# Loading a custom template tag library #}
+
+<!-- With Block (Multiple variables) -->
+{% with total=100 count=50 %}
+    <p>Total: {{ total }}</p>
+    <p>Count: {{ count }}</p>
+{% endwith %}
+
+<!-- Template Spaceless (Removes whitespace between HTML tags) -->
+{% spaceless %}
+    <div>
+        <p>Text</p>
+    </div>
+{% endspaceless %}
+
+
+-----------END TEMPLATE SYNTAX-----------------
 
 
 

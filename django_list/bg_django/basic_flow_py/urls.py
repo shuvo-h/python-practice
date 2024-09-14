@@ -17,12 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from machine_learning import urls as machine_urls
+from blogs import urls as blog_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 
     # use this routes whenever the url start with 'machine/'
-    # path('machine/',include('machine_learning.urls',namespace='machine_learning_app')),
-    path('machine/', include((machine_urls, 'machine_learning'), namespace='machine_learning_app')),
+    path('machine/', include((machine_urls, 'machine_learning'), namespace='machine_learning')),
+    path('blogs/', include((blog_urls, 'blogs'), namespace='blogs')),
 
 ]

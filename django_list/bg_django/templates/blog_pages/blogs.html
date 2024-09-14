@@ -1,0 +1,26 @@
+{% extends 'common/base.html' %}
+{% load static %}
+
+{% block title %} Blogs Page {% endblock title %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/blog_styles.css' %}">
+{% endblock %}
+
+{% block myAlert %} This is my custom myAlert {% endblock myAlert %}
+
+{% block content %}
+<body>
+    <h2>We have total {{blogs|length}} blogs</h2>
+    <section class="blog_container">
+        {% for blog in blogs reversed %}
+        <div>
+            <h4>[{{ forloop.counter }}] {{blog.title|capfirst}}</h4>
+            <p>{{blog.desc|lower}}</p>
+        </div>
+        {% empty %}
+        <p style="color:red;">No blogs found!</p>
+        {% endfor %}
+    </section>
+</body>
+{% endblock %}
