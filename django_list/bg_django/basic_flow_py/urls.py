@@ -1,5 +1,5 @@
 """
-URL configuration for py_basic project.
+URL configuration for basic_flow_py project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -16,11 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from machine_learning import urls as machine_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    # use this routes whenever the url start with 'playground/'
-    path('playground/',include('playground.urls')),
-    
+    # use this routes whenever the url start with 'machine/'
+    # path('machine/',include('machine_learning.urls',namespace='machine_learning_app')),
+    path('machine/', include((machine_urls, 'machine_learning'), namespace='machine_learning_app')),
+
 ]
