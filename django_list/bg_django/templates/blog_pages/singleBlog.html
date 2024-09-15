@@ -1,0 +1,17 @@
+{% extends 'common/base.html' %}
+{% load static %}
+
+{% block title %} Single Blog Page {% endblock title %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/blog_styles.css' %}">
+{% endblock %}
+
+{% block content %}
+<body>
+    <h2>Single Blog Page</h2>
+    <section>
+        <h2>Blog Id = {{blog.id}}</h2>
+    </section>
+</body>
+{% endblock %}

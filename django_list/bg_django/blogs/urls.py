@@ -7,4 +7,6 @@ app_name = 'blogs'
 # include this url list into main url file of the project
 urlpatterns = [
     path('',views.getBlogList,name='blogs'),
+    path('blog/create',views.createBlog,name='blogs'),
+    path('blog/<int:blog_id>/',views.getBlogById,name='blogById'),
 ]

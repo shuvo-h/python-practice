@@ -23,6 +23,23 @@ use this process for individual environment folder
 
 
 
+--------DB Migration START------------
+- create super user(django admin)
+    >> python manage.py createsuperuser
+        - username: abtest
+        - email: abtest@mail.com
+        - password: abtest
+- register all the database model class into admin.py to directly with with database from admin panel
+
+- show list of existing migrations
+    >> python manage.py showmigrations                                           // show all migrations status
+    >> python manage.py makemigrations appName --name migrationName              // create a migration script, then push to DB
+    >> python manage.py migrate                                                 // push the migration into DB
+    >>
+
+
+
+--------DB Migration END------------
 
 
 
