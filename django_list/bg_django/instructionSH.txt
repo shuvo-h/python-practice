@@ -48,6 +48,19 @@ use this process for individual environment folder
 
 --------popular libraries END----------------
 
+
+------------Rest API START----------------
+- add this in setting.py to maek rest api to make secure for browser
+    REST_FRAMEWORK = {
+        'DEFAULT_AUTHENTICATION_CLASSES': [
+            'rest_framework.authentication.BasicAuthentication',
+        ],
+        'DEFAULT_PERMISSION_CLASSES': [
+            'rest_framework.permissions.IsAuthenticated',
+        ]
+    }
+------------Rest API END----------------
+
 -----------------template syntax-----------------------
 <!-- Basic Variable Interpolation -->
 {{ variable }}                 {# Outputs the value of 'variable' #}
