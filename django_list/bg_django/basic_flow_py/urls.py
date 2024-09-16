@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 from machine_learning import urls as machine_urls
 from blogs import urls as blog_urls
+from dr_api import urls as teachers_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,5 +26,6 @@ urlpatterns = [
     # use this routes whenever the url start with 'machine/'
     path('machine/', include((machine_urls, 'machine_learning'), namespace='machine_learning')),
     path('blogs/', include((blog_urls, 'blogs'), namespace='blogs')),
+    path('api/teachers/', include((teachers_urls, 'teachers'), namespace='teachers')),
 
 ]

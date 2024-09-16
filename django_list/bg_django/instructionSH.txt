@@ -43,6 +43,10 @@ use this process for individual environment folder
 
 
 
+--------popular libraries START----------------
+>> pip install djangorestframework                  // when REST API
+
+--------popular libraries END----------------
 
 -----------------template syntax-----------------------
 <!-- Basic Variable Interpolation -->

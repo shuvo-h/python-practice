@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'machine_learning',
     'blogs',
+    'dr_api',
 ]
 
 MIDDLEWARE = [
