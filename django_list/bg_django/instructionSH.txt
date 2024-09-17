@@ -45,7 +45,7 @@ use this process for individual environment folder
 
 --------popular libraries START----------------
 >> pip install djangorestframework                  // when REST API
-
+>> pip install pillow                               // image processing when user upload image
 --------popular libraries END----------------
 
 
