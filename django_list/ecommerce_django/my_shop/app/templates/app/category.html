@@ -1,0 +1,36 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %} Category Page {% endblock title %}
+
+
+{% block main_content %}
+
+<h1>Category Page: {{category}}</h1>
+
+<section class="grid grid-cols-[200px_1fr] gap-8">
+    <aside class="flex flex-col">
+        {% for item in titles %}
+        <div class="shadow-sm border border-1  p-2 px-4 rounded-md">
+            <h2><a href="">{{item.title}}: {{item.total}}</a></h2>
+        </div>
+        {% endfor %}
+    </aside>
+    <aside class="grid grid-cols-4 gap-4 bg-gray-100 p-8 rounded-md">
+        {% for product in products %}
+        <div class="shadow-md shadow-green-300  rounded-md"><a href="{% url 'product_details' product.id %}">
+            <div class=" w-full">
+                <img class="w-full h-60 rounded-tr-md rounded-tl-md" src="{{product.product_image.url}}" alt="">
+            </div>
+            <div class="p-4">
+                <h4>{{product.title}}</h4>
+                <p>Rs. {{product.discounted_price}}</p>
+            </div>
+        </a></div>
+        {% endfor %}
+    </aside>
+</section>
+
+
+
+{% endblock main_content %}
+

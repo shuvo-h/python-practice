@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- (1) load all static info  -->
+{% load static %}
+{% load static tailwind_tags %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- (2) load tailwind css  -->
+    {% tailwind_css %}
+
+    <!-- load custom css  -->
+    <link rel="stylesheet" href="{% static 'app/css/my_css.css' %}">
+    <title>App Home</title>
+</head>
+<body>
+    <main>
+        <h2 class="bg-yellow-600 tc">This is app home page 1</h2>
+
+    </main>
+
+    <!-- (3) load custom javascript  -->
+    <script src="{% static 'app/js/my_js.js' %}"></script>
+</body>
+</html>

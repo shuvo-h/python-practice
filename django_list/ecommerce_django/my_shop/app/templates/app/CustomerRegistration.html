@@ -1,0 +1,48 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %} Customer Registration {% endblock title %}
+
+
+{% block main_content %}
+
+
+<div class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
+    <h1 class="text-3xl font-bold mb-4 text-center">Signup Now</h1>
+    <section>
+        <h3 class="text-xl font-semibold mb-4 text-gray-800">Customer Registration Form</h3>
+        <form action="" method="post" novalidate class="space-y-6">
+            {% csrf_token %}
+            {% for item in form %}
+                <div class="flex flex-col">
+                    <label class="block text-sm font-medium text-gray-700">
+                        {{ item.label_tag }}
+                    </label>
+                    <div class="mt-1">
+                        {{ item }}
+                    </div>
+                    <small class="text-red-500">{{ item.errors|striptags }}</small>
+                </div>
+            {% endfor %}
+            <input type="submit" value="Submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+            <div>
+                <small>Existing user? <a class="underline text-blue-700" href="{% url 'login' %}">Login Now</a></small>
+            </div>
+            <div class="error">
+                {% if form.non_field_errors %}
+                    {% for error in form.non_field_errors %}
+                        <p class="text-red-500 my-2">{{error}}</p>
+                    {% endfor %}
+                {% endif %}
+
+                {% if messages %}
+                    {% for msg in messages %}
+                        <div class="text-red-500">{{msg}}</div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </form>
+    </section>
+</div>
+
+{% endblock main_content %}
+
