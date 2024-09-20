@@ -1,0 +1,43 @@
+- install django, restframework, jwt, cors
+    >> 
+- Create a project
+    >> django-admin startproject projectName
+- under project create an app
+    >> python ./projectName/manage.py startapp newAppName
+
+- add the new app to the installed_apps list on manage.py
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+
+        # Custom
+        'api_app',
+
+        # Third Party
+        'import_export',
+        'crispy_forms',
+        'mathfilters',
+        'django.contrib.humanize',
+        'ckeditor',
+        'ckeditor_uploader',
+        'django_ckeditor_5',
+        'taggit',
+        'rest_framework',
+        'rest_framework_simplejwt.token_blacklist',
+        'corsheaders',
+    ]
+
+- Create model.py to create all table class
+    class User()
+    class Profile()
+- Create admin.py and register the classes to admin.rest_framework_simplejwt
+    admin.site.register(User,UserAdmin)
+    admin.site.register(Profile,ProfileAdmin)
+
+- in setting.py file, tell which data table model will be used for authentication
+    AUTH_USER_MODEL = 'api_v1_appName.User'
+
+- make the migration and migrate the database
+    >> python prjectDir/manage.py makemigrations
+    >> python prjectDir/manage.py migrate
+- create super user to access admin dashboard of django
+    >> python prjectDir/manage.py createsuperuser

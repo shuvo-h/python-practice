@@ -9,7 +9,7 @@
 <div class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
     <h1 class="text-3xl font-bold mb-4 text-center">Login Now</h1>
     <section>
-        <h3 class="text-xl font-semibold mb-4 text-gray-800">Customer Registration Form</h3>
+        <h3 class="text-xl font-semibold mb-4 text-gray-800">Customer Login Form</h3>
         <form action="" method="post" novalidate class="space-y-6">
             {% csrf_token %}
             {% for item in form %}
@@ -24,6 +24,9 @@
                 </div>
             {% endfor %}
             <input type="submit" value="Submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+            <div>
+                <small>Forget password? <a class="underline text-blue-700" href="{% url 'password_reset' %}">Reset Password</a></small>
+            </div>
             <div>
                 <small>Do not have account? <a class="underline text-blue-700" href="{% url 'registration' %}">Signup Now</a></small>
             </div>
