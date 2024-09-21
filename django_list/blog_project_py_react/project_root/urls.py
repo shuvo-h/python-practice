@@ -17,9 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from users import urls as user_urls
+from auth_app import urls as auth_urls
 
 api_v1_urls = [
     path('users/', include(user_urls)),
+    path('auth/', include(auth_urls)),
     # path('blogs/', include(blogs_urls)),
 ]
 

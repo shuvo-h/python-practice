@@ -1,7 +1,7 @@
 # your_app/exceptions.py
 
 from rest_framework.views import exception_handler
-from rest_framework.exceptions import APIException
+from rest_framework.exceptions import APIException, ValidationError
 from rest_framework import status
 from rest_framework.response import Response
 from .appError import AppError
@@ -29,10 +29,22 @@ def global_error_handler(exc, context):
 
      # Handle API exceptions
     if isinstance(exc, APIException):
+         # Check for validation errors specifically
+        if isinstance(exc, ValidationError):
+            return Response({
+                "isSuccess": False,
+                "message": "Validation error occured",
+                "data": None,
+                "errors": {field: ', '.join(messages) for field,messages in exc.detail.items()},
+            }, status=status.HTTP_502_BAD_GATEWAY)
+
+
         response.data = {
             "isSuccess": False,
-            "message": exc.detail,
+            "message": "Unknown error occured",
             "data": None,
             "errors": {}
         }
+
+
     return response

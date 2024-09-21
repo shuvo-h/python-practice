@@ -12,7 +12,7 @@ You need to modify the JWTAuthentication class or write a custom middleware to r
 """
 
 
-class CookieJWTAuthentication(JWTAuthentication):
+class CheckAuth(JWTAuthentication):
     def get_raw_token(self, request):
         # Assuming the cookie name is 'access'
         return request.COOKIES.get('access_token')

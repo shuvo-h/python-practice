@@ -158,7 +158,9 @@ CORS_ALLOWED_ORIGINS = [
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         # 'rest_framework_simplejwt.authentication.JWTAuthentication',  # for "Bearer accessToken"
-        'helpers.middlewares.validate_JWTAuthentication.CookieJWTAuthentication', # for cookies
+
+        # apply in each view.py as permission_classes = [permissions.AllowAny]
+        # 'helpers.middlewares.validate_JWTAuthentication.CheckAuth', # for cookies
     ),
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.AllowAny',  # Adjust based on your needs
