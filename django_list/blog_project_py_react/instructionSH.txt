@@ -1,14 +1,14 @@
->> django-admin                                 // get list of all command require on django project
->> django-admin startproject projectName .      // create a new django project. Here projectName is the folder name and "." dot define not to create extra folder level
->> django-admin runserver                       // to start a server
->> python manage.py runserver 5000              // alternatively to run server with port
-
-
 use this process for individual environment folder
+>> mkdir my_project_root
+>> cd my_project_root
 >> python -m venv .venv
->> .venv\Scripts\activate
->> python -m pip install django
->> django-admin startproject projectName .
+>> source .venv/bin/activate        // On macOS/Linux:
+>> .venv\Scripts\activate           // On Windows:
+>> pip install django djangorestframework djangorestframework-simplejwt django-cors-headers python-dotenv
+>> django-admin startproject projectRootName .
+>> django-admin startapp users          // create users,products,blogs,.... app module
+>> django-admin startapp products
+>> django-admin startapp blogs
 >> python manage.py runserver 5000
 
 >> python manage.py startapp newAppName         // to create a new app inside the project. include the appname in setting.py file
@@ -26,8 +26,8 @@ use this process for individual environment folder
 --------DB Migration START------------
 - create super user(django admin)
     >> python manage.py createsuperuser
-        - username: abtest
         - email: abtest@mail.com
+        - username: abtest
         - password: abtest
 - register all the database model class into admin.py to directly with with database from admin panel
 

@@ -2,9 +2,17 @@
     >> python -m venv .venv
     >> .venv\Scripts\activate
 - install django, restframework, jwt, cors
-    >> pip install django djangorestframework djangorestframework-simplejwt django-cors-headers
+    >> pip install django djangorestframework djangorestframework-simplejwt django-cors-headers python-dotenv
 - Create a project
     >> django-admin startproject projectName
+- Setup .env config in config_env.py file and update setting.py file with this config_env.py file
+    >> pip install psycopg2   // for postgreSQL DB
+    >> pip install python-dotenv
+        class Config:
+            SECRET_KEY = os.getenv('SECRET_KEY')
+            DEBUG = os.getenv('DEBUG', 'False') == 'True'  # Convert to boolean
+
+
 - under project create an app
     >> python ./projectName/manage.py startapp newAppName
 
