@@ -7,9 +7,12 @@ from rest_framework import status
 from rest_framework.exceptions import NotFound
 from helpers.errors.appError import AppError
 from helpers.utils.response_sender import sendRes
+from helpers.middlewares.validate_JWTAuthentication import CookieJWTAuthentication,get_role_permission
 
 class UsersListView(APIView):
     # permission_classes = [IsAuthenticated]
+    authentication_classes = [CookieJWTAuthentication]
+    permission_classes = [get_role_permission('admin', 'super_admin')]
 
     def get(self, request, *args, **kwargs):
         # Assuming you are fetching the logged-in user
