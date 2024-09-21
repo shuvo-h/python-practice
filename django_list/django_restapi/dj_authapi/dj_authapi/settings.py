@@ -68,7 +68,6 @@ MIDDLEWARE = [
 
     # extra middlewares
     "corsheaders.middleware.CorsMiddleware",
-    "django.middleware.common.CommonMiddleware",
 ]
 
 ROOT_URLCONF = 'dj_authapi.urls'
@@ -151,7 +150,10 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5000",
 ]
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': ('rest_framework_simplejwt.authentication.JWTAuthentication',)
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        # 'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'api_v1.auth_utils.CookieJWTAuthentication'
+    )  # if we use {headers:"Bearer accessToken"}
 }
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=5),

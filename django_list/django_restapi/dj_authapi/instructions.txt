@@ -1,5 +1,8 @@
+- create .venv environment
+    >> python -m venv .venv
+    >> .venv\Scripts\activate
 - install django, restframework, jwt, cors
-    >> 
+    >> pip install django djangorestframework djangorestframework-simplejwt django-cors-headers
 - Create a project
     >> django-admin startproject projectName
 - under project create an app
@@ -25,6 +28,12 @@
         'rest_framework_simplejwt.token_blacklist',
         'corsheaders',
     ]
+    MIDDLEWARE=[
+        "corsheaders.middleware.CorsMiddleware",
+    ]
+    REST_FRAMEWORK = {}
+    SIMPLE_JWT = {}
+    CORS_ALLOWED_ORIGINS = ["http://localhost:5000",]
 
 - Create model.py to create all table class
     class User()
@@ -41,3 +50,7 @@
     >> python prjectDir/manage.py migrate
 - create super user to access admin dashboard of django
     >> python prjectDir/manage.py createsuperuser
+- create a serilizer.py file to convert into json
+    list of serializer and database update methods here
+- create urls.py file and make API routes and connect with root api route
+- create views.py file to define the request handler class view
