@@ -62,3 +62,11 @@
     list of serializer and database update methods here
 - create urls.py file and make API routes and connect with root api route
 - create views.py file to define the request handler class view
+
+
+- to setup DB backup
+    >> pip install django-dbbackup
+    change in setting.py
+        - add INSTALLED_APPS = ['dbbackup'] in setting.py
+        - configure db backup in setting.py
+    >> python manage.py dbbackup

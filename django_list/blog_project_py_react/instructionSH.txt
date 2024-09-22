@@ -37,6 +37,14 @@ use this process for individual environment folder
     >> python manage.py migrate                                                 // push the migration into DB
     >>
 
+-- DB migration
+    >> pip install django-dbbackup
+        - add INSTALLED_APPS = ['dbbackup'] in setting.py
+        - configure db backup in setting.py
+    >> python manage.py dbbackup --clean                    # make a new backup
+    >> python manage.py dbrestore                           # restore database
+
+
 
 
 --------DB Migration END------------

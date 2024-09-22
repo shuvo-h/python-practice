@@ -7,3 +7,6 @@ db.sqlite3
 dist
 node_modules
 .env.local
+db_backup
+
+

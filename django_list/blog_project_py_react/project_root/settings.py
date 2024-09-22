@@ -54,6 +54,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt.token_blacklist',
     'corsheaders',
+    'dbbackup',
+    'storages', # need when backup to cloude
 ]
 
 MIDDLEWARE = [
@@ -206,3 +208,14 @@ SIMPLE_JWT = {
     "SLIDING_TOKEN_OBTAIN_SERIALIZER": "rest_framework_simplejwt.serializers.TokenObtainSlidingSerializer",
     "SLIDING_TOKEN_REFRESH_SERIALIZER": "rest_framework_simplejwt.serializers.TokenRefreshSlidingSerializer",
 }
+
+
+# *********** My databse backup config START ***********
+DBBACKUP_STORAGE = 'django.core.files.storage.FileSystemStorage'
+DBBACKUP_STORAGE_OPTIONS = {'location': BASE_DIR/'db_backup'}
+DBBACKUP_HOSTNAME = "my_project_name"
+DBBACKUP_TMP_FILE_MAX_SIZE = 10*1024*1024
+DBBACKUP_CLEANUP_KEEP = 2
+
+
+# *********** My databse backup config END ***********
