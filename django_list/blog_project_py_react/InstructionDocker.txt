@@ -1,0 +1,3 @@
+>> docker system df 		// check space and sizes
+>> docker image prune
+>> docker builder prune 	// clear build cache

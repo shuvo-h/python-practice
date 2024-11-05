@@ -1,0 +1,11 @@
+~ Test how many concorrent request can handle the server
+
+STEP: 1
+>> pip install locust
+
+STEP: 3
+>> locust
+
+
+now open the locust port on web browser
+
