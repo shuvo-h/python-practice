@@ -1,0 +1,2716 @@
+[
+    {
+      "id": "P1001",
+      "name": "Wireless Bluetooth Headphones",
+      "description": "High-quality over-ear wireless headphones with deep bass and noise cancellation.",
+      "category": "Electronics > Audio > Headphones",
+      "brand": "SoundMagic",
+      "price": 99.99,
+      "discount_price": 79.99,
+      "currency": "USD",
+      "stock": 120,
+      "tags": [
+        "wireless",
+        "bluetooth",
+        "headphones"
+      ],
+      "rating": 4.5,
+      "reviews_count": 240,
+      "color": "Black",
+      "connectivity": "Bluetooth",
+      "battery_life_hours": 30,
+      "dimensions_cm": {
+        "length": 18,
+        "width": 16,
+        "height": 8
+      },
+      "weight_grams": 250,
+      "features": [
+        "Noise Cancelling",
+        "Deep Bass",
+        "Foldable Design",
+        "Fast Charging"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "music lovers",
+        "commuters"
+      ]
+    },
+    {
+      "id": "P1002",
+      "name": "Smart LED TV 43 Inch",
+      "description": "Ultra HD Smart LED TV with built-in Wi-Fi and voice remote.",
+      "category": "Electronics > TV & Home Theater > Televisions",
+      "brand": "VisionTech",
+      "price": 399.99,
+      "discount_price": 349.99,
+      "currency": "USD",
+      "stock": 80,
+      "tags": [
+        "smart-tv",
+        "LED",
+        "43-inch"
+      ],
+      "rating": 4.2,
+      "reviews_count": 130,
+      "color": "Black",
+      "connectivity": "Wi-Fi, HDMI",
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 97,
+        "width": 56,
+        "height": 7
+      },
+      "weight_grams": 7200,
+      "features": [
+        "Ultra HD 4K",
+        "Voice Remote",
+        "Streaming Apps"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 5
+      },
+      "warranty_years": 2,
+      "target_audience": [
+        "families",
+        "movie lovers"
+      ]
+    },
+    {
+      "id": "P1003",
+      "name": "Gaming Laptop 15.6 Inch",
+      "description": "Powerful gaming laptop with RTX 3060 GPU, 16GB RAM, and 512GB SSD.",
+      "category": "Electronics > Computers > Laptops",
+      "brand": "GigaTech",
+      "price": 1299.99,
+      "discount_price": 1149.99,
+      "currency": "USD",
+      "stock": 45,
+      "tags": [
+        "gaming",
+        "laptop",
+        "RTX"
+      ],
+      "rating": 4.7,
+      "reviews_count": 89,
+      "color": "Black",
+      "connectivity": "Wi-Fi, Bluetooth, HDMI",
+      "battery_life_hours": 6,
+      "dimensions_cm": {
+        "length": 36,
+        "width": 24,
+        "height": 2.2
+      },
+      "weight_grams": 2400,
+      "features": [
+        "Backlit Keyboard",
+        "High Refresh Rate",
+        "Cooling System"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 4
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "gamers",
+        "power users"
+      ]
+    },
+    {
+      "id": "P1004",
+      "name": "Ergonomic Office Chair",
+      "description": "Comfortable mesh chair with lumbar support and adjustable arms.",
+      "category": "Furniture > Office > Chairs",
+      "brand": "SitWell",
+      "price": 189.99,
+      "discount_price": 159.99,
+      "currency": "USD",
+      "stock": 60,
+      "tags": [
+        "office",
+        "chair",
+        "ergonomic"
+      ],
+      "rating": 4.4,
+      "reviews_count": 112,
+      "color": "Gray",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 70,
+        "width": 70,
+        "height": 110
+      },
+      "weight_grams": 15000,
+      "features": [
+        "Lumbar Support",
+        "Breathable Mesh",
+        "Adjustable Arms"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 7
+      },
+      "warranty_years": 2,
+      "target_audience": [
+        "remote workers",
+        "offices"
+      ]
+    },
+    {
+      "id": "P1005",
+      "name": "Smartphone 5G",
+      "description": "Flagship 5G smartphone with 108MP camera and AMOLED display.",
+      "category": "Electronics > Mobile > Smartphones",
+      "brand": "NovaPhone",
+      "price": 899.99,
+      "discount_price": 849.99,
+      "currency": "USD",
+      "stock": 200,
+      "tags": [
+        "5G",
+        "smartphone",
+        "camera"
+      ],
+      "rating": 4.6,
+      "reviews_count": 310,
+      "color": "Silver",
+      "connectivity": "5G, Wi-Fi, Bluetooth",
+      "battery_life_hours": 24,
+      "dimensions_cm": {
+        "length": 15,
+        "width": 7.5,
+        "height": 0.8
+      },
+      "weight_grams": 180,
+      "features": [
+        "Fast Charging",
+        "High-Res Camera",
+        "AMOLED Display"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "photographers",
+        "tech enthusiasts"
+      ]
+    },
+    {
+      "id": "P1006",
+      "name": "Portable Coffee Maker",
+      "description": "Compact coffee maker for travel and office use with USB charging.",
+      "category": "Home Appliances > Kitchen > Coffee Makers",
+      "brand": "BrewBuddy",
+      "price": 49.99,
+      "discount_price": 39.99,
+      "currency": "USD",
+      "stock": 150,
+      "tags": [
+        "coffee",
+        "portable",
+        "kitchen"
+      ],
+      "rating": 4.1,
+      "reviews_count": 90,
+      "color": "Red",
+      "connectivity": "USB Charging",
+      "battery_life_hours": 10,
+      "dimensions_cm": {
+        "length": 22,
+        "width": 8,
+        "height": 8
+      },
+      "weight_grams": 600,
+      "features": [
+        "USB Rechargeable",
+        "Easy Clean",
+        "Travel Friendly"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "coffee lovers",
+        "travelers"
+      ]
+    },
+    {
+      "id": "P1007",
+      "name": "Fitness Tracker Watch",
+      "description": "Water-resistant smartwatch with heart rate monitor and step counter.",
+      "category": "Wearables > Fitness > Smartwatches",
+      "brand": "FitCore",
+      "price": 79.99,
+      "discount_price": 59.99,
+      "currency": "USD",
+      "stock": 300,
+      "tags": [
+        "fitness",
+        "watch",
+        "smartwatch"
+      ],
+      "rating": 4.3,
+      "reviews_count": 210,
+      "color": "Blue",
+      "connectivity": "Bluetooth",
+      "battery_life_hours": 48,
+      "dimensions_cm": {
+        "length": 25,
+        "width": 4,
+        "height": 1
+      },
+      "weight_grams": 50,
+      "features": [
+        "Heart Rate Monitor",
+        "Step Counter",
+        "Sleep Tracker"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "fitness enthusiasts",
+        "daily users"
+      ]
+    },
+    {
+      "id": "P1008",
+      "name": "4K Action Camera",
+      "description": "Rugged action cam with waterproof casing and 4K video recording.",
+      "category": "Electronics > Cameras > Action Cameras",
+      "brand": "CamXtreme",
+      "price": 129.99,
+      "discount_price": 99.99,
+      "currency": "USD",
+      "stock": 110,
+      "tags": [
+        "camera",
+        "action",
+        "4K"
+      ],
+      "rating": 4.5,
+      "reviews_count": 150,
+      "color": "Black",
+      "connectivity": "Wi-Fi, USB",
+      "battery_life_hours": 5,
+      "dimensions_cm": {
+        "length": 6,
+        "width": 4,
+        "height": 3
+      },
+      "weight_grams": 90,
+      "features": [
+        "Waterproof",
+        "Image Stabilization",
+        "Wide Angle Lens"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 4
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "adventurers",
+        "vloggers"
+      ]
+    },
+    {
+      "id": "P1009",
+      "name": "Adjustable Standing Desk",
+      "description": "Electric height-adjustable standing desk with memory presets.",
+      "category": "Furniture > Office > Desks",
+      "brand": "WorkFlex",
+      "price": 449.99,
+      "discount_price": 399.99,
+      "currency": "USD",
+      "stock": 50,
+      "tags": [
+        "standing-desk",
+        "office",
+        "adjustable"
+      ],
+      "rating": 4.8,
+      "reviews_count": 75,
+      "color": "White",
+      "connectivity": "USB",
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 120,
+        "width": 60,
+        "height": 75
+      },
+      "weight_grams": 25000,
+      "features": [
+        "Electric Height Adjustment",
+        "Memory Presets",
+        "Cable Management"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 6
+      },
+      "warranty_years": 3,
+      "target_audience": [
+        "remote workers",
+        "offices"
+      ]
+    },
+    {
+      "id": "P1010",
+      "name": "Electric Toothbrush Pro",
+      "description": "Rechargeable electric toothbrush with 3 brushing modes and 2-minute timer.",
+      "category": "Health & Personal Care > Oral Care",
+      "brand": "SmilePro",
+      "price": 59.99,
+      "discount_price": 39.99,
+      "currency": "USD",
+      "stock": 170,
+      "tags": [
+        "toothbrush",
+        "electric",
+        "personal-care"
+      ],
+      "rating": 4.4,
+      "reviews_count": 140,
+      "color": "White",
+      "connectivity": "USB Charging",
+      "battery_life_hours": 60,
+      "dimensions_cm": {
+        "length": 23,
+        "width": 3,
+        "height": 3
+      },
+      "weight_grams": 130,
+      "features": [
+        "3 Modes",
+        "Smart Timer",
+        "Travel Case"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "families",
+        "health conscious"
+      ]
+    },
+    {
+      "id": "P1011",
+      "name": "Robot Vacuum Cleaner",
+      "description": "Smart robot vacuum with app control, scheduling, and self-charging.",
+      "category": "Home Appliances > Cleaning > Vacuum Cleaners",
+      "brand": "CleanMate",
+      "price": 299.99,
+      "discount_price": 249.99,
+      "currency": "USD",
+      "stock": 80,
+      "tags": [
+        "robot",
+        "vacuum",
+        "smart"
+      ],
+      "rating": 4.6,
+      "reviews_count": 180,
+      "color": "White",
+      "connectivity": "Wi-Fi, App Controlled",
+      "battery_life_hours": 2,
+      "dimensions_cm": {
+        "length": 32,
+        "width": 32,
+        "height": 7.5
+      },
+      "weight_grams": 3500,
+      "features": [
+        "Auto-Charging",
+        "Anti-Collision",
+        "Multi-Surface Cleaning"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 4
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "busy professionals",
+        "pet owners"
+      ]
+    },
+    {
+      "id": "P1012",
+      "name": "Noise Cancelling Earbuds",
+      "description": "True wireless earbuds with ANC, touch control, and long battery life.",
+      "category": "Electronics > Audio > Earbuds",
+      "brand": "AudioZen",
+      "price": 129.99,
+      "discount_price": 99.99,
+      "currency": "USD",
+      "stock": 150,
+      "tags": [
+        "earbuds",
+        "ANC",
+        "wireless"
+      ],
+      "rating": 4.3,
+      "reviews_count": 220,
+      "color": "Black",
+      "connectivity": "Bluetooth 5.2",
+      "battery_life_hours": 24,
+      "dimensions_cm": {
+        "length": 6,
+        "width": 3,
+        "height": 3
+      },
+      "weight_grams": 45,
+      "features": [
+        "Active Noise Cancellation",
+        "Touch Controls",
+        "Fast Charging"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "commuters",
+        "students",
+        "music lovers"
+      ]
+    },
+    {
+      "id": "P1013",
+      "name": "Adjustable Dumbbell Set",
+      "description": "Adjustable dumbbells with 5\u201352.5 lbs range and quick-change dial system.",
+      "category": "Sports & Outdoors > Fitness > Strength Training",
+      "brand": "FlexIron",
+      "price": 349.99,
+      "discount_price": 299.99,
+      "currency": "USD",
+      "stock": 40,
+      "tags": [
+        "gym",
+        "weights",
+        "dumbbells"
+      ],
+      "rating": 4.7,
+      "reviews_count": 95,
+      "color": "Black & Red",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 40,
+        "width": 20,
+        "height": 20
+      },
+      "weight_grams": 24000,
+      "features": [
+        "Adjustable Weight",
+        "Quick Dial",
+        "Compact Design"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 5
+      },
+      "warranty_years": 2,
+      "target_audience": [
+        "fitness enthusiasts",
+        "home gym users"
+      ]
+    },
+    {
+      "id": "P1014",
+      "name": "Compact Air Purifier",
+      "description": "HEPA filter air purifier with night light and quiet operation.",
+      "category": "Home Appliances > Air Quality",
+      "brand": "PureBreathe",
+      "price": 79.99,
+      "discount_price": 59.99,
+      "currency": "USD",
+      "stock": 130,
+      "tags": [
+        "air-purifier",
+        "HEPA",
+        "home"
+      ],
+      "rating": 4.4,
+      "reviews_count": 110,
+      "color": "White",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 20,
+        "width": 20,
+        "height": 35
+      },
+      "weight_grams": 3000,
+      "features": [
+        "True HEPA Filter",
+        "Night Light",
+        "Silent Mode"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "allergy sufferers",
+        "pet owners"
+      ]
+    },
+    {
+      "id": "P1015",
+      "name": "Streaming Webcam 1080p",
+      "description": "Full HD webcam with autofocus, built-in mic, and tripod.",
+      "category": "Electronics > Computers > Webcams",
+      "brand": "StreamIt",
+      "price": 49.99,
+      "discount_price": 39.99,
+      "currency": "USD",
+      "stock": 220,
+      "tags": [
+        "webcam",
+        "streaming",
+        "HD"
+      ],
+      "rating": 4.2,
+      "reviews_count": 150,
+      "color": "Black",
+      "connectivity": "USB 2.0",
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 9,
+        "width": 4,
+        "height": 4
+      },
+      "weight_grams": 150,
+      "features": [
+        "Autofocus",
+        "Built-in Microphone",
+        "Tripod Included"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "streamers",
+        "remote workers"
+      ]
+    },
+    {
+      "id": "P1016",
+      "name": "Waterproof Hiking Backpack 40L",
+      "description": "Durable waterproof backpack with 40L capacity and multiple compartments.",
+      "category": "Sports & Outdoors > Hiking > Backpacks",
+      "brand": "TrailMax",
+      "price": 69.99,
+      "discount_price": 54.99,
+      "currency": "USD",
+      "stock": 90,
+      "tags": [
+        "hiking",
+        "backpack",
+        "waterproof"
+      ],
+      "rating": 4.5,
+      "reviews_count": 85,
+      "color": "Green",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 55,
+        "width": 30,
+        "height": 20
+      },
+      "weight_grams": 950,
+      "features": [
+        "Waterproof",
+        "Chest Strap",
+        "Laptop Sleeve"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 4
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "hikers",
+        "travelers",
+        "students"
+      ]
+    },
+    {
+      "id": "P1017",
+      "name": "Electric Hair Trimmer Set",
+      "description": "Rechargeable grooming kit with multiple heads and precision blades.",
+      "category": "Health & Personal Care > Grooming > Trimmers",
+      "brand": "TrimXpert",
+      "price": 39.99,
+      "discount_price": 29.99,
+      "currency": "USD",
+      "stock": 140,
+      "tags": [
+        "trimmer",
+        "grooming",
+        "electric"
+      ],
+      "rating": 4.3,
+      "reviews_count": 160,
+      "color": "Gray",
+      "connectivity": "USB Charging",
+      "battery_life_hours": 4,
+      "dimensions_cm": {
+        "length": 16,
+        "width": 4,
+        "height": 3
+      },
+      "weight_grams": 200,
+      "features": [
+        "Multiple Attachments",
+        "Water-Resistant",
+        "LED Display"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "men",
+        "stylists"
+      ]
+    },
+    {
+      "id": "P1018",
+      "name": "Kids Tablet 8-Inch",
+      "description": "Child-friendly Android tablet with parental control and shockproof case.",
+      "category": "Electronics > Tablets > Kids",
+      "brand": "EduTab",
+      "price": 119.99,
+      "discount_price": 99.99,
+      "currency": "USD",
+      "stock": 100,
+      "tags": [
+        "kids",
+        "tablet",
+        "educational"
+      ],
+      "rating": 4.1,
+      "reviews_count": 95,
+      "color": "Blue",
+      "connectivity": "Wi-Fi, Bluetooth",
+      "battery_life_hours": 8,
+      "dimensions_cm": {
+        "length": 21,
+        "width": 12,
+        "height": 1
+      },
+      "weight_grams": 400,
+      "features": [
+        "Parental Control",
+        "Pre-Installed Apps",
+        "Durable Case"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "children",
+        "parents"
+      ]
+    },
+    {
+      "id": "P1019",
+      "name": "Electric Milk Frother",
+      "description": "Handheld milk frother for lattes, cappuccinos, and hot chocolate.",
+      "category": "Home Appliances > Kitchen > Beverage Tools",
+      "brand": "FrothFiesta",
+      "price": 19.99,
+      "discount_price": 14.99,
+      "currency": "USD",
+      "stock": 180,
+      "tags": [
+        "frother",
+        "coffee",
+        "kitchen"
+      ],
+      "rating": 4.4,
+      "reviews_count": 105,
+      "color": "Silver",
+      "connectivity": "Battery Powered",
+      "battery_life_hours": 10,
+      "dimensions_cm": {
+        "length": 23,
+        "width": 3,
+        "height": 3
+      },
+      "weight_grams": 120,
+      "features": [
+        "Stainless Steel",
+        "Fast Frothing",
+        "Ergonomic Handle"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "coffee lovers",
+        "home users"
+      ]
+    },
+    {
+      "id": "P1020",
+      "name": "Multi-Device Wireless Keyboard",
+      "description": "Slim wireless keyboard with Bluetooth multi-device support and quiet keys.",
+      "category": "Electronics > Accessories > Keyboards",
+      "brand": "KeyConnect",
+      "price": 59.99,
+      "discount_price": 44.99,
+      "currency": "USD",
+      "stock": 210,
+      "tags": [
+        "keyboard",
+        "wireless",
+        "multi-device"
+      ],
+      "rating": 4.5,
+      "reviews_count": 120,
+      "color": "White",
+      "connectivity": "Bluetooth",
+      "battery_life_hours": 200,
+      "dimensions_cm": {
+        "length": 36,
+        "width": 12,
+        "height": 2
+      },
+      "weight_grams": 400,
+      "features": [
+        "Multi-Device Switch",
+        "Rechargeable",
+        "Silent Typing"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "remote workers",
+        "students",
+        "techies"
+      ]
+    },
+    {
+      "id": "P1021",
+      "name": "Smart Digital Scale",
+      "description": "Bluetooth-enabled body scale with BMI tracking and smartphone app sync.",
+      "category": "Health & Personal Care > Fitness > Scales",
+      "brand": "FitTrack",
+      "price": 49.99,
+      "discount_price": 34.99,
+      "currency": "USD",
+      "stock": 95,
+      "tags": [
+        "scale",
+        "fitness",
+        "smart"
+      ],
+      "rating": 4.4,
+      "reviews_count": 88,
+      "color": "Black",
+      "connectivity": "Bluetooth",
+      "battery_life_hours": 720,
+      "dimensions_cm": {
+        "length": 30,
+        "width": 30,
+        "height": 2
+      },
+      "weight_grams": 1600,
+      "features": [
+        "BMI Tracker",
+        "Multi-User",
+        "App Sync"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "fitness users",
+        "home users"
+      ]
+    },
+    {
+      "id": "P1022",
+      "name": "Mini Portable Projector",
+      "description": "Compact projector with HDMI, USB, and built-in speaker for movies and presentations.",
+      "category": "Electronics > TV & Video > Projectors",
+      "brand": "ViewGo",
+      "price": 149.99,
+      "discount_price": 119.99,
+      "currency": "USD",
+      "stock": 60,
+      "tags": [
+        "projector",
+        "portable",
+        "home-theater"
+      ],
+      "rating": 4.2,
+      "reviews_count": 140,
+      "color": "White",
+      "connectivity": "HDMI, USB",
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 14,
+        "width": 12,
+        "height": 6
+      },
+      "weight_grams": 900,
+      "features": [
+        "Built-in Speaker",
+        "Portable Design",
+        "LED Lamp"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 4
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "movie lovers",
+        "presenters",
+        "students"
+      ]
+    },
+    {
+      "id": "P1023",
+      "name": "Stainless Steel Insulated Water Bottle",
+      "description": "Keeps drinks cold for 24 hours and hot for 12 hours, leak-proof design.",
+      "category": "Home & Kitchen > Drinkware",
+      "brand": "HydroVault",
+      "price": 25.99,
+      "discount_price": 19.99,
+      "currency": "USD",
+      "stock": 200,
+      "tags": [
+        "water-bottle",
+        "insulated",
+        "stainless-steel"
+      ],
+      "rating": 4.7,
+      "reviews_count": 170,
+      "color": "Silver",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 8,
+        "width": 8,
+        "height": 28
+      },
+      "weight_grams": 500,
+      "features": [
+        "Leak-Proof",
+        "Hot & Cold",
+        "Eco-Friendly"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "athletes",
+        "travelers",
+        "students"
+      ]
+    },
+    {
+      "id": "P1024",
+      "name": "Magnetic Wireless Charger Pad",
+      "description": "Fast magnetic charger compatible with MagSafe devices.",
+      "category": "Electronics > Accessories > Chargers",
+      "brand": "ChargeLink",
+      "price": 39.99,
+      "discount_price": 29.99,
+      "currency": "USD",
+      "stock": 150,
+      "tags": [
+        "charger",
+        "wireless",
+        "MagSafe"
+      ],
+      "rating": 4.3,
+      "reviews_count": 102,
+      "color": "White",
+      "connectivity": "MagSafe, USB-C",
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 6.5,
+        "width": 6.5,
+        "height": 1
+      },
+      "weight_grams": 80,
+      "features": [
+        "Magnetic Snap",
+        "Fast Charging",
+        "Compact"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "iPhone users",
+        "travelers"
+      ]
+    },
+    {
+      "id": "P1025",
+      "name": "Adjustable Standing Desk Converter",
+      "description": "Desktop riser with multiple height settings and large surface.",
+      "category": "Office Supplies > Furniture > Desks",
+      "brand": "DeskPro",
+      "price": 159.99,
+      "discount_price": 129.99,
+      "currency": "USD",
+      "stock": 35,
+      "tags": [
+        "standing desk",
+        "adjustable",
+        "ergonomic"
+      ],
+      "rating": 4.6,
+      "reviews_count": 77,
+      "color": "Black",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 80,
+        "width": 40,
+        "height": 15
+      },
+      "weight_grams": 13000,
+      "features": [
+        "Ergonomic Design",
+        "Height Adjustable",
+        "Large Surface"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 5
+      },
+      "warranty_years": 2,
+      "target_audience": [
+        "remote workers",
+        "office users"
+      ]
+    },
+    {
+      "id": "P1026",
+      "name": "LED Ring Light with Tripod",
+      "description": "10-inch LED ring light with 3 color modes and adjustable height tripod.",
+      "category": "Photography > Lighting",
+      "brand": "BrightLite",
+      "price": 45.99,
+      "discount_price": 34.99,
+      "currency": "USD",
+      "stock": 100,
+      "tags": [
+        "ring light",
+        "LED",
+        "tripod"
+      ],
+      "rating": 4.5,
+      "reviews_count": 125,
+      "color": "Black",
+      "connectivity": "USB Powered",
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 25,
+        "width": 25,
+        "height": 160
+      },
+      "weight_grams": 1100,
+      "features": [
+        "3 Color Modes",
+        "Dimmable",
+        "Phone Holder"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "content creators",
+        "makeup artists"
+      ]
+    },
+    {
+      "id": "P1027",
+      "name": "4-in-1 USB-C Hub Adapter",
+      "description": "Slim USB-C hub with HDMI, USB 3.0 ports, and SD card reader.",
+      "category": "Electronics > Accessories > Hubs",
+      "brand": "PortMate",
+      "price": 49.99,
+      "discount_price": 39.99,
+      "currency": "USD",
+      "stock": 160,
+      "tags": [
+        "USB-C",
+        "hub",
+        "adapter"
+      ],
+      "rating": 4.4,
+      "reviews_count": 115,
+      "color": "Gray",
+      "connectivity": "USB-C",
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 9,
+        "width": 4,
+        "height": 1
+      },
+      "weight_grams": 90,
+      "features": [
+        "HDMI Output",
+        "High-Speed USB",
+        "Compact"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "laptop users",
+        "digital nomads"
+      ]
+    },
+    {
+      "id": "P1028",
+      "name": "Cordless Electric Screwdriver",
+      "description": "Rechargeable mini drill screwdriver with multiple bits and LED light.",
+      "category": "Tools & Home Improvement > Power Tools",
+      "brand": "FixPro",
+      "price": 59.99,
+      "discount_price": 44.99,
+      "currency": "USD",
+      "stock": 90,
+      "tags": [
+        "screwdriver",
+        "cordless",
+        "DIY"
+      ],
+      "rating": 4.3,
+      "reviews_count": 100,
+      "color": "Red & Black",
+      "connectivity": "USB Charging",
+      "battery_life_hours": 6,
+      "dimensions_cm": {
+        "length": 18,
+        "width": 4,
+        "height": 5
+      },
+      "weight_grams": 750,
+      "features": [
+        "LED Light",
+        "Magnetic Bit Holder",
+        "Compact Design"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "DIYers",
+        "repairmen"
+      ]
+    },
+    {
+      "id": "P1029",
+      "name": "Non-Stick Frying Pan 12-inch",
+      "description": "Durable non-stick frying pan with ergonomic handle and induction base.",
+      "category": "Home & Kitchen > Cookware > Pans",
+      "brand": "CookSmart",
+      "price": 34.99,
+      "discount_price": 27.99,
+      "currency": "USD",
+      "stock": 130,
+      "tags": [
+        "pan",
+        "non-stick",
+        "cookware"
+      ],
+      "rating": 4.6,
+      "reviews_count": 98,
+      "color": "Black",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 30,
+        "width": 30,
+        "height": 5
+      },
+      "weight_grams": 1000,
+      "features": [
+        "Non-Stick Coating",
+        "Ergonomic Handle",
+        "Induction Base"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "home cooks",
+        "chefs"
+      ]
+    },
+    {
+      "id": "P1030",
+      "name": "Pet Hair Remover Roller",
+      "description": "Reusable fur remover for sofas, beds, and clothing. No batteries needed.",
+      "category": "Home & Kitchen > Cleaning Tools > Pet Hair Removers",
+      "brand": "FurGone",
+      "price": 24.99,
+      "discount_price": 18.99,
+      "currency": "USD",
+      "stock": 170,
+      "tags": [
+        "pet",
+        "cleaning",
+        "fur remover"
+      ],
+      "rating": 4.7,
+      "reviews_count": 160,
+      "color": "White & Red",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 20,
+        "width": 7,
+        "height": 5
+      },
+      "weight_grams": 350,
+      "features": [
+        "Reusable",
+        "Eco-Friendly",
+        "No Power Needed"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "pet owners",
+        "housekeepers"
+      ]
+    },
+    {
+      "id": "P1031",
+      "name": "Wireless Ergonomic Keyboard",
+      "description": "Split design keyboard with wrist rest, Bluetooth and USB dongle support.",
+      "category": "Electronics > Computer Accessories > Keyboards",
+      "brand": "KeyFlex",
+      "price": 89.99,
+      "discount_price": 69.99,
+      "currency": "USD",
+      "stock": 55,
+      "tags": [
+        "keyboard",
+        "ergonomic",
+        "wireless"
+      ],
+      "rating": 4.4,
+      "reviews_count": 80,
+      "color": "Black",
+      "connectivity": "Bluetooth, USB",
+      "battery_life_hours": 720,
+      "dimensions_cm": {
+        "length": 45,
+        "width": 20,
+        "height": 4
+      },
+      "weight_grams": 800,
+      "features": [
+        "Split Layout",
+        "Wrist Support",
+        "Dual Connectivity"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 2,
+      "target_audience": [
+        "remote workers",
+        "typists",
+        "gamers"
+      ]
+    },
+    {
+      "id": "P1032",
+      "name": "Compact Air Purifier",
+      "description": "HEPA filter purifier for small rooms, removes allergens and dust.",
+      "category": "Home & Kitchen > Appliances > Air Purifiers",
+      "brand": "PureBreathe",
+      "price": 69.99,
+      "discount_price": 54.99,
+      "currency": "USD",
+      "stock": 85,
+      "tags": [
+        "air purifier",
+        "HEPA",
+        "clean air"
+      ],
+      "rating": 4.6,
+      "reviews_count": 90,
+      "color": "White",
+      "connectivity": "Plug-in",
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 18,
+        "width": 18,
+        "height": 25
+      },
+      "weight_grams": 1200,
+      "features": [
+        "HEPA Filter",
+        "Silent Mode",
+        "Compact Design"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 4
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "allergy sufferers",
+        "home users"
+      ]
+    },
+    {
+      "id": "P1033",
+      "name": "Bamboo Charging Station Dock",
+      "description": "Organize and charge up to 5 devices with this eco-friendly bamboo dock.",
+      "category": "Electronics > Accessories > Charging Stations",
+      "brand": "EcoCharge",
+      "price": 44.99,
+      "discount_price": 34.99,
+      "currency": "USD",
+      "stock": 120,
+      "tags": [
+        "charging dock",
+        "bamboo",
+        "organizer"
+      ],
+      "rating": 4.5,
+      "reviews_count": 70,
+      "color": "Natural Wood",
+      "connectivity": "USB",
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 20,
+        "width": 15,
+        "height": 10
+      },
+      "weight_grams": 600,
+      "features": [
+        "Eco-Friendly",
+        "Multi-Device",
+        "Cable Organizer"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "tech-savvy",
+        "eco-conscious",
+        "families"
+      ]
+    },
+    {
+      "id": "P1034",
+      "name": "Rechargeable LED Camping Lantern",
+      "description": "Bright and waterproof lantern with USB charging and hook for hanging.",
+      "category": "Sports & Outdoors > Camping & Hiking",
+      "brand": "CampGlow",
+      "price": 39.99,
+      "discount_price": 27.99,
+      "currency": "USD",
+      "stock": 100,
+      "tags": [
+        "lantern",
+        "camping",
+        "LED"
+      ],
+      "rating": 4.6,
+      "reviews_count": 110,
+      "color": "Green",
+      "connectivity": "USB Rechargeable",
+      "battery_life_hours": 48,
+      "dimensions_cm": {
+        "length": 10,
+        "width": 10,
+        "height": 20
+      },
+      "weight_grams": 500,
+      "features": [
+        "Waterproof",
+        "Rechargeable",
+        "Hanging Hook"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "campers",
+        "emergency kits"
+      ]
+    },
+    {
+      "id": "P1035",
+      "name": "Noise-Canceling Over-Ear Headphones",
+      "description": "Wireless over-ear headphones with ANC and 30-hour battery life.",
+      "category": "Electronics > Audio > Headphones",
+      "brand": "SoundCore",
+      "price": 129.99,
+      "discount_price": 99.99,
+      "currency": "USD",
+      "stock": 75,
+      "tags": [
+        "headphones",
+        "ANC",
+        "wireless"
+      ],
+      "rating": 4.7,
+      "reviews_count": 150,
+      "color": "Black",
+      "connectivity": "Bluetooth",
+      "battery_life_hours": 30,
+      "dimensions_cm": {
+        "length": 18,
+        "width": 15,
+        "height": 8
+      },
+      "weight_grams": 250,
+      "features": [
+        "Active Noise Cancellation",
+        "Foldable",
+        "Wireless"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 2,
+      "target_audience": [
+        "commuters",
+        "music lovers",
+        "travelers"
+      ]
+    },
+    {
+      "id": "P1036",
+      "name": "Silicone Baking Mat Set (3-Pack)",
+      "description": "Reusable non-stick mats for baking, fits half-sheet pans.",
+      "category": "Home & Kitchen > Bakeware",
+      "brand": "BakeEase",
+      "price": 24.99,
+      "discount_price": 18.99,
+      "currency": "USD",
+      "stock": 140,
+      "tags": [
+        "baking mat",
+        "non-stick",
+        "reusable"
+      ],
+      "rating": 4.8,
+      "reviews_count": 90,
+      "color": "Red & Clear",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 42,
+        "width": 29,
+        "height": 0.1
+      },
+      "weight_grams": 350,
+      "features": [
+        "Oven Safe",
+        "Easy Clean",
+        "Eco-Friendly"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "bakers",
+        "home cooks"
+      ]
+    },
+    {
+      "id": "P1037",
+      "name": "Smart WiFi Plug (4-Pack)",
+      "description": "Voice control with Alexa & Google, timer and scheduling features.",
+      "category": "Smart Home > Plugs & Outlets",
+      "brand": "PlugSmart",
+      "price": 39.99,
+      "discount_price": 29.99,
+      "currency": "USD",
+      "stock": 200,
+      "tags": [
+        "smart plug",
+        "WiFi",
+        "home automation"
+      ],
+      "rating": 4.5,
+      "reviews_count": 180,
+      "color": "White",
+      "connectivity": "WiFi",
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 6,
+        "width": 4,
+        "height": 3
+      },
+      "weight_grams": 100,
+      "features": [
+        "Voice Control",
+        "Remote Access",
+        "Energy Monitor"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "homeowners",
+        "tech users"
+      ]
+    },
+    {
+      "id": "P1038",
+      "name": "Adjustable Dumbbells (Pair, 25lbs each)",
+      "description": "Adjustable weight dumbbells with fast dial system for home workouts.",
+      "category": "Sports & Outdoors > Exercise & Fitness",
+      "brand": "FlexLift",
+      "price": 199.99,
+      "discount_price": 159.99,
+      "currency": "USD",
+      "stock": 40,
+      "tags": [
+        "dumbbells",
+        "adjustable",
+        "fitness"
+      ],
+      "rating": 4.6,
+      "reviews_count": 95,
+      "color": "Black",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 35,
+        "width": 18,
+        "height": 18
+      },
+      "weight_grams": 11340,
+      "features": [
+        "Adjustable Weight",
+        "Space-Saving",
+        "Non-Slip Grip"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 5
+      },
+      "warranty_years": 2,
+      "target_audience": [
+        "fitness lovers",
+        "home gym users"
+      ]
+    },
+    {
+      "id": "P1039",
+      "name": "Portable Neck Fan",
+      "description": "Hands-free personal cooling fan with 3 speed modes and rechargeable battery.",
+      "category": "Home & Kitchen > Cooling > Fans",
+      "brand": "BreezeWear",
+      "price": 29.99,
+      "discount_price": 22.99,
+      "currency": "USD",
+      "stock": 130,
+      "tags": [
+        "fan",
+        "portable",
+        "cooling"
+      ],
+      "rating": 4.3,
+      "reviews_count": 105,
+      "color": "White",
+      "connectivity": "USB Charging",
+      "battery_life_hours": 10,
+      "dimensions_cm": {
+        "length": 20,
+        "width": 18,
+        "height": 5
+      },
+      "weight_grams": 300,
+      "features": [
+        "Hands-Free",
+        "Adjustable Speed",
+        "Rechargeable"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "commuters",
+        "outdoor users",
+        "students"
+      ]
+    },
+    {
+      "id": "P1040",
+      "name": "Bluetooth Sleep Mask Headphones",
+      "description": "3D eye mask with built-in wireless headphones for sleeping and relaxation.",
+      "category": "Health & Personal Care > Sleep Aids",
+      "brand": "DreamSound",
+      "price": 35.99,
+      "discount_price": 28.99,
+      "currency": "USD",
+      "stock": 75,
+      "tags": [
+        "sleep mask",
+        "bluetooth",
+        "headphones"
+      ],
+      "rating": 4.4,
+      "reviews_count": 112,
+      "color": "Gray",
+      "connectivity": "Bluetooth",
+      "battery_life_hours": 12,
+      "dimensions_cm": {
+        "length": 22,
+        "width": 9,
+        "height": 2
+      },
+      "weight_grams": 180,
+      "features": [
+        "3D Contour",
+        "Built-in Music",
+        "Comfort Fit"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "sleepers",
+        "travelers"
+      ]
+    },
+    {
+      "id": "P1041",
+      "name": "Hydrating Facial Serum",
+      "description": "Lightweight serum enriched with hyaluronic acid for deep skin hydration.",
+      "category": "Beauty & Personal Care > Skincare > Serums",
+      "brand": "GlowSkin",
+      "price": 29.99,
+      "discount_price": 24.99,
+      "currency": "USD",
+      "stock": 150,
+      "tags": [
+        "serum",
+        "hydration",
+        "skincare"
+      ],
+      "rating": 4.7,
+      "reviews_count": 210,
+      "color": "Clear",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 4,
+        "width": 4,
+        "height": 12
+      },
+      "weight_grams": 100,
+      "features": [
+        "Paraben-Free",
+        "Fragrance-Free",
+        "Dermatologist Tested"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "women",
+        "men",
+        "teens"
+      ]
+    },
+    {
+      "id": "P1042",
+      "name": "Men's Casual Denim Jacket",
+      "description": "Classic fit denim jacket with button closure and multiple pockets.",
+      "category": "Clothing > Men > Jackets & Coats",
+      "brand": "UrbanEdge",
+      "price": 59.99,
+      "discount_price": 49.99,
+      "currency": "USD",
+      "stock": 80,
+      "tags": [
+        "denim",
+        "jacket",
+        "men"
+      ],
+      "rating": 4.5,
+      "reviews_count": 95,
+      "color": "Blue",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 60,
+        "width": 50,
+        "height": 5
+      },
+      "weight_grams": 800,
+      "features": [
+        "Machine Washable",
+        "Durable Fabric",
+        "Stylish Design"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 4
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "men",
+        "young adults"
+      ]
+    },
+    {
+      "id": "P1043",
+      "name": "Women's Floral Summer Dress",
+      "description": "Lightweight sleeveless dress with floral print, perfect for summer outings.",
+      "category": "Clothing > Women > Dresses",
+      "brand": "SunshineWear",
+      "price": 45.99,
+      "discount_price": 35.99,
+      "currency": "USD",
+      "stock": 120,
+      "tags": [
+        "dress",
+        "floral",
+        "women"
+      ],
+      "rating": 4.6,
+      "reviews_count": 130,
+      "color": "Multicolor",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 90,
+        "width": 45,
+        "height": 2
+      },
+      "weight_grams": 300,
+      "features": [
+        "Breathable Fabric",
+        "Machine Washable",
+        "Comfort Fit"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "women",
+        "teens"
+      ]
+    },
+    {
+      "id": "P1044",
+      "name": "Organic Baby Food Pouches (Pack of 6)",
+      "description": "Assorted flavors of organic pureed fruits and vegetables for babies.",
+      "category": "Baby Products > Food",
+      "brand": "NatureTots",
+      "price": 18.99,
+      "discount_price": 15.99,
+      "currency": "USD",
+      "stock": 200,
+      "tags": [
+        "baby food",
+        "organic",
+        "pouches"
+      ],
+      "rating": 4.8,
+      "reviews_count": 160,
+      "color": "Assorted",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 15,
+        "width": 10,
+        "height": 12
+      },
+      "weight_grams": 600,
+      "features": [
+        "No Added Sugar",
+        "BPA-Free Packaging",
+        "USDA Organic"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 0,
+      "target_audience": [
+        "babies",
+        "parents"
+      ]
+    },
+    {
+      "id": "P1045",
+      "name": "Men's Athletic Running Shoes",
+      "description": "Lightweight and breathable running shoes with cushioned soles.",
+      "category": "Footwear > Men > Athletic",
+      "brand": "RunFast",
+      "price": 75.99,
+      "discount_price": 65.99,
+      "currency": "USD",
+      "stock": 90,
+      "tags": [
+        "running shoes",
+        "men",
+        "athletic"
+      ],
+      "rating": 4.5,
+      "reviews_count": 110,
+      "color": "Black/White",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 30,
+        "width": 20,
+        "height": 12
+      },
+      "weight_grams": 700,
+      "features": [
+        "Breathable Mesh",
+        "Non-Slip Sole",
+        "Arch Support"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "men",
+        "athletes"
+      ]
+    },
+    {
+      "id": "P1046",
+      "name": "Women's Yoga Leggings",
+      "description": "High-waisted, stretchable leggings suitable for yoga and workouts.",
+      "category": "Clothing > Women > Activewear",
+      "brand": "FlexiFit",
+      "price": 39.99,
+      "discount_price": 29.99,
+      "currency": "USD",
+      "stock": 100,
+      "tags": [
+        "leggings",
+        "yoga",
+        "women"
+      ],
+      "rating": 4.7,
+      "reviews_count": 140,
+      "color": "Gray",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 90,
+        "width": 35,
+        "height": 2
+      },
+      "weight_grams": 250,
+      "features": [
+        "Moisture-Wicking",
+        "Four-Way Stretch",
+        "Tummy Control"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "women",
+        "fitness enthusiasts"
+      ]
+    },
+    {
+      "id": "P1051",
+      "name": "Organic Baby Food - Apple Banana",
+      "description": "Nutrient-rich organic puree for infants aged 6+ months, made from real apples and bananas.",
+      "category": "Food & Beverages > Baby Food",
+      "brand": "TinyTummy",
+      "price": 2.99,
+      "discount_price": 2.49,
+      "currency": "USD",
+      "stock": 600,
+      "tags": [
+        "baby food",
+        "organic",
+        "puree"
+      ],
+      "rating": 4.9,
+      "reviews_count": 432,
+      "color": "Natural",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 5,
+        "width": 3,
+        "height": 10
+      },
+      "weight_grams": 120,
+      "features": [
+        "USDA Organic",
+        "No Preservatives",
+        "BPA-free pouch"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 3
+      },
+      "warranty_years": 0,
+      "target_audience": [
+        "infants"
+      ]
+    },
+    {
+      "id": "P1052",
+      "name": "Women's Summer Maxi Dress",
+      "description": "Floral print long dress made from breathable fabric, perfect for casual outings.",
+      "category": "Clothing > Women > Dresses",
+      "brand": "BloomWear",
+      "price": 49.99,
+      "discount_price": 39.99,
+      "currency": "USD",
+      "stock": 120,
+      "tags": [
+        "women",
+        "summer",
+        "floral dress"
+      ],
+      "rating": 4.4,
+      "reviews_count": 211,
+      "color": "Floral Print",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 140,
+        "width": 45,
+        "height": 2
+      },
+      "weight_grams": 400,
+      "features": [
+        "Machine Washable",
+        "Breathable",
+        "Anti-shrink"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 5
+      },
+      "warranty_years": 0,
+      "target_audience": [
+        "women"
+      ]
+    },
+    {
+      "id": "P1053",
+      "name": "Men's Athletic Running Shoes",
+      "description": "Lightweight running shoes with memory foam insoles and breathable mesh.",
+      "category": "Footwear > Men > Sports Shoes",
+      "brand": "StridePro",
+      "price": 64.99,
+      "discount_price": 54.99,
+      "currency": "USD",
+      "stock": 200,
+      "tags": [
+        "sports shoes",
+        "running",
+        "men"
+      ],
+      "rating": 4.6,
+      "reviews_count": 319,
+      "color": "Black & White",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 30,
+        "width": 12,
+        "height": 11
+      },
+      "weight_grams": 800,
+      "features": [
+        "Shock Absorption",
+        "Breathable",
+        "Anti-Slip"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 4
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "men",
+        "athletes"
+      ]
+    },
+    {
+      "id": "P1054",
+      "name": "Unisex Travel Backpack",
+      "description": "Durable backpack with padded compartments and USB charging port.",
+      "category": "Bags & Luggage > Backpacks",
+      "brand": "VoyageX",
+      "price": 39.99,
+      "discount_price": 34.99,
+      "currency": "USD",
+      "stock": 180,
+      "tags": [
+        "backpack",
+        "travel",
+        "usb charging"
+      ],
+      "rating": 4.5,
+      "reviews_count": 275,
+      "color": "Navy Blue",
+      "connectivity": "USB port",
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 32,
+        "width": 18,
+        "height": 45
+      },
+      "weight_grams": 1000,
+      "features": [
+        "Water-Resistant",
+        "USB Charging",
+        "Laptop Compartment"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 5
+      },
+      "warranty_years": 2,
+      "target_audience": [
+        "students",
+        "travelers",
+        "unisex"
+      ]
+    },
+    {
+      "id": "P1055",
+      "name": "Baby Diapers - Size 3 (160 count)",
+      "description": "Ultra-absorbent and soft diapers with leak protection for active babies.",
+      "category": "Baby & Kids > Diapers & Potty",
+      "brand": "SnugFit",
+      "price": 45.99,
+      "discount_price": 39.99,
+      "currency": "USD",
+      "stock": 90,
+      "tags": [
+        "baby",
+        "diaper",
+        "soft"
+      ],
+      "rating": 4.8,
+      "reviews_count": 690,
+      "color": "White",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 40,
+        "width": 25,
+        "height": 30
+      },
+      "weight_grams": 2500,
+      "features": [
+        "12-Hour Protection",
+        "Hypoallergenic",
+        "Wetness Indicator"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 0,
+      "target_audience": [
+        "babies",
+        "parents"
+      ]
+    },
+    {
+      "id": "P1056",
+      "name": "Men's Formal Slim Fit Shirt",
+      "description": "Cotton blend long sleeve shirt suitable for business meetings and events.",
+      "category": "Clothing > Men > Shirts",
+      "brand": "Forman",
+      "price": 29.99,
+      "discount_price": 24.99,
+      "currency": "USD",
+      "stock": 210,
+      "tags": [
+        "formal",
+        "slim fit",
+        "men"
+      ],
+      "rating": 4.2,
+      "reviews_count": 145,
+      "color": "Sky Blue",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 70,
+        "width": 50,
+        "height": 2
+      },
+      "weight_grams": 300,
+      "features": [
+        "Wrinkle-Resistant",
+        "Breathable",
+        "Machine Wash"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 4
+      },
+      "warranty_years": 0,
+      "target_audience": [
+        "men",
+        "professionals"
+      ]
+    },
+    {
+      "id": "P1057",
+      "name": "Nourishing Hair Oil - Argan & Coconut",
+      "description": "Blend of organic argan and coconut oils to nourish dry, frizzy hair.",
+      "category": "Beauty & Personal Care > Hair Care > Oils",
+      "brand": "HairBloom",
+      "price": 12.99,
+      "discount_price": 10.49,
+      "currency": "USD",
+      "stock": 400,
+      "tags": [
+        "hair oil",
+        "argan",
+        "coconut"
+      ],
+      "rating": 4.6,
+      "reviews_count": 321,
+      "color": "Golden",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 4,
+        "width": 4,
+        "height": 15
+      },
+      "weight_grams": 200,
+      "features": [
+        "No Mineral Oil",
+        "Paraben-Free",
+        "Suitable for All Hair Types"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 0,
+      "target_audience": [
+        "women",
+        "men"
+      ]
+    },
+    {
+      "id": "P1058",
+      "name": "Toddler T-Shirt - Cartoon Print",
+      "description": "Soft cotton cartoon tee for toddlers with cute animated design.",
+      "category": "Clothing > Kids > Tops",
+      "brand": "KiddieFun",
+      "price": 9.99,
+      "discount_price": 8.49,
+      "currency": "USD",
+      "stock": 140,
+      "tags": [
+        "kids",
+        "t-shirt",
+        "cartoon"
+      ],
+      "rating": 4.7,
+      "reviews_count": 98,
+      "color": "Yellow",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 40,
+        "width": 25,
+        "height": 1
+      },
+      "weight_grams": 150,
+      "features": [
+        "100% Cotton",
+        "Durable Print",
+        "Machine Wash"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 4
+      },
+      "warranty_years": 0,
+      "target_audience": [
+        "kids",
+        "toddlers"
+      ]
+    },
+    {
+      "id": "P1059",
+      "name": "Face Wash Gel - Oily Skin",
+      "description": "Gentle foaming gel for oily and acne-prone skin with salicylic acid.",
+      "category": "Beauty & Personal Care > Skincare > Face Wash",
+      "brand": "DermaPure",
+      "price": 8.99,
+      "discount_price": 6.99,
+      "currency": "USD",
+      "stock": 220,
+      "tags": [
+        "face wash",
+        "oily skin",
+        "acne"
+      ],
+      "rating": 4.3,
+      "reviews_count": 202,
+      "color": "Green",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 6,
+        "width": 4,
+        "height": 14
+      },
+      "weight_grams": 180,
+      "features": [
+        "Oil-Free",
+        "Non-Comedogenic",
+        "Salicylic Acid"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 2
+      },
+      "warranty_years": 0,
+      "target_audience": [
+        "teens",
+        "adults"
+      ]
+    },
+    {
+      "id": "P1060",
+      "name": "Instant Oatmeal - Mixed Berries",
+      "description": "Quick-cooking whole grain oats with natural mixed berry flavoring.",
+      "category": "Food & Beverages > Breakfast",
+      "brand": "NutriGrain",
+      "price": 6.49,
+      "discount_price": 5.99,
+      "currency": "USD",
+      "stock": 310,
+      "tags": [
+        "oatmeal",
+        "breakfast",
+        "healthy"
+      ],
+      "rating": 4.4,
+      "reviews_count": 154,
+      "color": "Beige",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 15,
+        "width": 8,
+        "height": 20
+      },
+      "weight_grams": 500,
+      "features": [
+        "Whole Grain",
+        "No Artificial Flavors",
+        "Low Sugar"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 3
+      },
+      "warranty_years": 0,
+      "target_audience": [
+        "adults",
+        "students",
+        "fitness enthusiasts"
+      ]
+    },
+    {
+      "id": "P1061",
+      "name": "Luxury Men's Watch - Stainless Steel",
+      "description": "Elegant stainless steel wristwatch with a sleek design, perfect for formal events.",
+      "category": "Watches > Men",
+      "brand": "TimeMaster",
+      "price": 199.99,
+      "discount_price": 179.99,
+      "currency": "USD",
+      "stock": 150,
+      "tags": [
+        "men",
+        "luxury",
+        "wristwatch"
+      ],
+      "rating": 4.8,
+      "reviews_count": 402,
+      "color": "Silver",
+      "connectivity": null,
+      "battery_life_hours": 48,
+      "dimensions_cm": {
+        "length": 10,
+        "width": 5,
+        "height": 1.2
+      },
+      "weight_grams": 250,
+      "features": [
+        "Water-Resistant",
+        "Sapphire Glass",
+        "Automatic Movement"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 5
+      },
+      "warranty_years": 2,
+      "target_audience": [
+        "men",
+        "luxury lovers"
+      ]
+    },
+    {
+      "id": "P1062",
+      "name": "Women's Winter Coat - Wool Blend",
+      "description": "Stylish wool blend coat designed to keep you warm and fashionable during the winter season.",
+      "category": "Clothing > Women > Outerwear",
+      "brand": "ColdHaven",
+      "price": 129.99,
+      "discount_price": 109.99,
+      "currency": "USD",
+      "stock": 120,
+      "tags": [
+        "women",
+        "winter",
+        "coat"
+      ],
+      "rating": 4.6,
+      "reviews_count": 256,
+      "color": "Charcoal Grey",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 80,
+        "width": 55,
+        "height": 5
+      },
+      "weight_grams": 1200,
+      "features": [
+        "Water-Repellent",
+        "Warm",
+        "Machine Washable"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 4
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "women"
+      ]
+    },
+    {
+      "id": "P1063",
+      "name": "Baby Stroller - Lightweight Foldable",
+      "description": "Compact and foldable stroller for babies, equipped with a sunshade and storage basket.",
+      "category": "Baby & Kids > Strollers",
+      "brand": "ComfyRide",
+      "price": 159.99,
+      "discount_price": 139.99,
+      "currency": "USD",
+      "stock": 50,
+      "tags": [
+        "baby",
+        "stroller",
+        "foldable"
+      ],
+      "rating": 4.7,
+      "reviews_count": 198,
+      "color": "Black",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 80,
+        "width": 60,
+        "height": 105
+      },
+      "weight_grams": 7000,
+      "features": [
+        "Lightweight",
+        "Adjustable Handle",
+        "Easy Fold"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 5
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "parents",
+        "babies"
+      ]
+    },
+    {
+      "id": "P1064",
+      "name": "Organic Protein Powder - Vanilla Flavor",
+      "description": "Plant-based protein powder with organic vanilla flavor, great for smoothies and shakes.",
+      "category": "Health & Wellness > Supplements",
+      "brand": "PurePlant",
+      "price": 39.99,
+      "discount_price": 34.99,
+      "currency": "USD",
+      "stock": 220,
+      "tags": [
+        "protein",
+        "organic",
+        "vanilla"
+      ],
+      "rating": 4.5,
+      "reviews_count": 312,
+      "color": "Vanilla",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 10,
+        "width": 10,
+        "height": 20
+      },
+      "weight_grams": 500,
+      "features": [
+        "Vegan",
+        "Gluten-Free",
+        "Non-GMO"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 4
+      },
+      "warranty_years": 0,
+      "target_audience": [
+        "fitness enthusiasts",
+        "vegans"
+      ]
+    },
+    {
+      "id": "P1065",
+      "name": "Men's Running Shorts - Quick-Dry",
+      "description": "Breathable and quick-dry running shorts for men, designed for comfort during workouts.",
+      "category": "Clothing > Men > Activewear",
+      "brand": "RunFit",
+      "price": 19.99,
+      "discount_price": 14.99,
+      "currency": "USD",
+      "stock": 350,
+      "tags": [
+        "men",
+        "running",
+        "activewear"
+      ],
+      "rating": 4.3,
+      "reviews_count": 295,
+      "color": "Black",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 40,
+        "width": 30,
+        "height": 1
+      },
+      "weight_grams": 150,
+      "features": [
+        "Quick-Dry",
+        "Elastic Waistband",
+        "Breathable"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 3
+      },
+      "warranty_years": 0,
+      "target_audience": [
+        "men",
+        "athletes"
+      ]
+    },
+    {
+      "id": "P1066",
+      "name": "Pet Grooming Kit - Complete Set",
+      "description": "Complete grooming set for pets, including scissors, nail clippers, and a hairbrush.",
+      "category": "Pets > Grooming",
+      "brand": "PetCare",
+      "price": 29.99,
+      "discount_price": 24.99,
+      "currency": "USD",
+      "stock": 180,
+      "tags": [
+        "pet grooming",
+        "complete set",
+        "cats and dogs"
+      ],
+      "rating": 4.7,
+      "reviews_count": 128,
+      "color": "Pink",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 25,
+        "width": 15,
+        "height": 5
+      },
+      "weight_grams": 400,
+      "features": [
+        "Ergonomic Handles",
+        "Sharp Blades",
+        "Suitable for Cats & Dogs"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 4
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "pet owners"
+      ]
+    },
+    {
+      "id": "P1067",
+      "name": "Children's Storybook - Adventures in Space",
+      "description": "A fun and educational children's book about space adventures, suitable for kids aged 4-8.",
+      "category": "Books > Children's",
+      "brand": "BookNest",
+      "price": 8.99,
+      "discount_price": 7.49,
+      "currency": "USD",
+      "stock": 500,
+      "tags": [
+        "children's book",
+        "space",
+        "adventures"
+      ],
+      "rating": 4.8,
+      "reviews_count": 220,
+      "color": "Multicolor",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 22,
+        "width": 20,
+        "height": 1
+      },
+      "weight_grams": 250,
+      "features": [
+        "Hardcover",
+        "Colorful Illustrations",
+        "Educational"
+      ],
+      "shipping": {
+        "free_shipping": false,
+        "estimated_days": 6
+      },
+      "warranty_years": 0,
+      "target_audience": [
+        "children",
+        "parents"
+      ]
+    },
+    {
+      "id": "P1068",
+      "name": "Electric Kettle - Stainless Steel, 1.7L",
+      "description": "1.7L capacity stainless steel electric kettle with fast boil function and automatic shutoff.",
+      "category": "Home Appliances > Kitchen",
+      "brand": "BoilMaster",
+      "price": 34.99,
+      "discount_price": 29.99,
+      "currency": "USD",
+      "stock": 400,
+      "tags": [
+        "electric kettle",
+        "stainless steel",
+        "fast boil"
+      ],
+      "rating": 4.6,
+      "reviews_count": 350,
+      "color": "Silver",
+      "connectivity": null,
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 15,
+        "width": 15,
+        "height": 22
+      },
+      "weight_grams": 1000,
+      "features": [
+        "Automatic Shutoff",
+        "Fast Boil",
+        "Cordless"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 5
+      },
+      "warranty_years": 1,
+      "target_audience": [
+        "home users"
+      ]
+    },
+    {
+      "id": "P1069",
+      "name": "Smart Thermostat - Wi-Fi Enabled",
+      "description": "Wi-Fi enabled smart thermostat for efficient home heating and cooling.",
+      "category": "Home Appliances > Smart Home",
+      "brand": "EcoHeat",
+      "price": 99.99,
+      "discount_price": 89.99,
+      "currency": "USD",
+      "stock": 180,
+      "tags": [
+        "smart home",
+        "thermostat",
+        "Wi-Fi enabled"
+      ],
+      "rating": 4.7,
+      "reviews_count": 450,
+      "color": "White",
+      "connectivity": "Wi-Fi",
+      "battery_life_hours": null,
+      "dimensions_cm": {
+        "length": 8,
+        "width": 8,
+        "height": 2
+      },
+      "weight_grams": 200,
+      "features": [
+        "Remote Control",
+        "Energy Saving",
+        "Voice Control Compatible"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 5
+      },
+      "warranty_years": 2,
+      "target_audience": [
+        "homeowners",
+        "smart home enthusiasts"
+      ]
+    },
+    {
+      "id": "P1070",
+      "name": "Wireless Noise-Cancelling Headphones",
+      "description": "Over-ear headphones with active noise cancellation and Bluetooth connectivity.",
+      "category": "Electronics > Audio > Headphones",
+      "brand": "SoundWave",
+      "price": 149.99,
+      "discount_price": 129.99,
+      "currency": "USD",
+      "stock": 100,
+      "tags": [
+        "headphones",
+        "wireless",
+        "noise-cancelling"
+      ],
+      "rating": 4.9,
+      "reviews_count": 550,
+      "color": "Black",
+      "connectivity": "Bluetooth",
+      "battery_life_hours": 20,
+      "dimensions_cm": {
+        "length": 18,
+        "width": 18,
+        "height": 8
+      },
+      "weight_grams": 300,
+      "features": [
+        "Active Noise Cancelling",
+        "Bluetooth",
+        "Comfortable"
+      ],
+      "shipping": {
+        "free_shipping": true,
+        "estimated_days": 3
+      },
+      "warranty_years": 2,
+      "target_audience": [
+        "music lovers",
+        "travelers"
+      ]
+    }
+]

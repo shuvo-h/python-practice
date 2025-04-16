@@ -1,0 +1,1655 @@
+[
+    {
+      "user_id": "U12345",
+      "email": "user1@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 5,
+            "time_spent_seconds": 120,
+            "date": "2025-04-16"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-16"
+          }
+        ],
+        "purchases": [
+          {
+            "product_id": "P1050",
+            "purchase_date": "2025-04-10",
+            "purchase_amount": 29.99
+          }
+        ],
+        "removals": [
+          {
+            "product_id": "P1040",
+            "removed_from_cart": true,
+            "date": "2025-04-14"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Cooling",
+          "Portable"
+        ],
+        "rating_preference": 4.3,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "commuters",
+          "outdoor users"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12346",
+      "email": "user2@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 2,
+            "time_spent_seconds": 60,
+            "date": "2025-04-12"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-12"
+          }
+        ],
+        "removals": [
+          {
+            "product_id": "P1040",
+            "removed_from_cart": true,
+            "date": "2025-04-13"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Portable"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Cooling",
+          "Portable"
+        ],
+        "rating_preference": 4.5,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "students"
+        ]
+      },
+      "context": {
+        "time_of_day": "afternoon",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12347",
+      "email": "user3@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1040",
+            "view_count": 7,
+            "time_spent_seconds": 200,
+            "date": "2025-04-14"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1040",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-14"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Adjustable Speed",
+          "Hands-Free"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Home & Kitchen",
+          "Fans"
+        ],
+        "rating_preference": 4.0,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "evening",
+        "season": "fall"
+      }
+    },
+    {
+      "user_id": "U12348",
+      "email": "user4@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 3,
+            "time_spent_seconds": 80,
+            "date": "2025-04-16"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-16"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.2,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "students",
+          "outdoor users"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "spring"
+      }
+    },
+    {
+      "user_id": "U12349",
+      "email": "user5@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1040",
+            "view_count": 4,
+            "time_spent_seconds": 150,
+            "date": "2025-04-14"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1040",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-14"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "USB Charging",
+          "Rechargeable"
+        ],
+        "preferred_categories": [
+          "Fans",
+          "Home & Kitchen"
+        ],
+        "rating_preference": 4.4,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "outdoor users"
+        ]
+      },
+      "context": {
+        "time_of_day": "afternoon",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12350",
+      "email": "user6@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 8,
+            "time_spent_seconds": 250,
+            "date": "2025-04-15"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-15"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Hands-Free",
+          "Rechargeable"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.7,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "commuters",
+          "outdoor users"
+        ]
+      },
+      "context": {
+        "time_of_day": "evening",
+        "season": "spring"
+      }
+    },
+    {
+      "user_id": "U12351",
+      "email": "user7@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 6,
+            "time_spent_seconds": 180,
+            "date": "2025-04-15"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-15"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Adjustable Speed",
+          "Rechargeable"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Cooling",
+          "Portable"
+        ],
+        "rating_preference": 4.2,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12352",
+      "email": "user8@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1040",
+            "view_count": 3,
+            "time_spent_seconds": 110,
+            "date": "2025-04-13"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1040",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-13"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Hands-Free",
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "USB Charging",
+          "Rechargeable"
+        ],
+        "preferred_categories": [
+          "Home & Kitchen",
+          "Fans"
+        ],
+        "rating_preference": 4.5,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "students"
+        ]
+      },
+      "context": {
+        "time_of_day": "afternoon",
+        "season": "fall"
+      }
+    },
+    {
+      "user_id": "U12353",
+      "email": "user9@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 2,
+            "time_spent_seconds": 50,
+            "date": "2025-04-10"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-10"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.3,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "outdoor users"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12354",
+      "email": "user10@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 5,
+            "time_spent_seconds": 130,
+            "date": "2025-04-14"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-14"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Hands-Free"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.6,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "commuters",
+          "students"
+        ]
+      },
+      "context": {
+        "time_of_day": "afternoon",
+        "season": "fall"
+      }
+    },
+    {
+      "user_id": "U12355",
+      "email": "jane.doe1@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 3,
+            "time_spent_seconds": 75,
+            "date": "2025-04-16"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-16"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.3,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12356",
+      "email": "john.smith2@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 5,
+            "time_spent_seconds": 100,
+            "date": "2025-04-12"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-12"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Hands-Free"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Cooling",
+          "Portable"
+        ],
+        "rating_preference": 4.4,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "outdoor users"
+        ]
+      },
+      "context": {
+        "time_of_day": "afternoon",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12357",
+      "email": "emily.jones3@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 2,
+            "time_spent_seconds": 50,
+            "date": "2025-04-14"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-14"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Cooling",
+          "Portable"
+        ],
+        "rating_preference": 4.2,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "evening",
+        "season": "spring"
+      }
+    },
+    {
+      "user_id": "U12358",
+      "email": "michael.wilson4@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 3,
+            "time_spent_seconds": 85,
+            "date": "2025-04-15"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-15"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Hands-Free"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.5,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "students"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12359",
+      "email": "sarah.miller5@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1040",
+            "view_count": 4,
+            "time_spent_seconds": 120,
+            "date": "2025-04-16"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1040",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-16"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Adjustable Speed",
+          "Hands-Free"
+        ],
+        "disliked_features": [
+          "Rechargeable"
+        ],
+        "preferred_categories": [
+          "Fans",
+          "Home & Kitchen"
+        ],
+        "rating_preference": 4.6,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "outdoor users"
+        ]
+      },
+      "context": {
+        "time_of_day": "afternoon",
+        "season": "fall"
+      }
+    },
+    {
+      "user_id": "U12360",
+      "email": "david.moore6@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 6,
+            "time_spent_seconds": 150,
+            "date": "2025-04-10"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-10"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Hands-Free",
+          "Rechargeable"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.3,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "spring"
+      }
+    },
+    {
+      "user_id": "U12361",
+      "email": "olivia.taylor7@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 3,
+            "time_spent_seconds": 100,
+            "date": "2025-04-12"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-12"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Cooling",
+          "Portable"
+        ],
+        "rating_preference": 4.1,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "students"
+        ]
+      },
+      "context": {
+        "time_of_day": "evening",
+        "season": "fall"
+      }
+    },
+    {
+      "user_id": "U12362",
+      "email": "charlie.brown8@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 2,
+            "time_spent_seconds": 60,
+            "date": "2025-04-14"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-14"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Adjustable Speed",
+          "Rechargeable"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.4,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12363",
+      "email": "lucas.davis9@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1040",
+            "view_count": 5,
+            "time_spent_seconds": 150,
+            "date": "2025-04-15"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1040",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-15"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Hands-Free",
+          "Rechargeable"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Fans",
+          "Home & Kitchen"
+        ],
+        "rating_preference": 4.5,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "students"
+        ]
+      },
+      "context": {
+        "time_of_day": "evening",
+        "season": "spring"
+      }
+    },
+    {
+      "user_id": "U12364",
+      "email": "jason.moore1@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1041",
+            "view_count": 4,
+            "time_spent_seconds": 110,
+            "date": "2025-04-16"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1041",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-16"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.3,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12365",
+      "email": "maria.johnson2@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 6,
+            "time_spent_seconds": 130,
+            "date": "2025-04-11"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-11"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Hands-Free"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.5,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "students"
+        ]
+      },
+      "context": {
+        "time_of_day": "afternoon",
+        "season": "spring"
+      }
+    },
+    {
+      "user_id": "U12366",
+      "email": "matthew.lee3@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1042",
+            "view_count": 4,
+            "time_spent_seconds": 120,
+            "date": "2025-04-15"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1042",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-15"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Home & Kitchen",
+          "Cooling"
+        ],
+        "rating_preference": 4.0,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "outdoor users"
+        ]
+      },
+      "context": {
+        "time_of_day": "evening",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12367",
+      "email": "sophia.clark4@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1038",
+            "view_count": 3,
+            "time_spent_seconds": 85,
+            "date": "2025-04-10"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1038",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-10"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Hands-Free"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.6,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "spring"
+      }
+    },
+    {
+      "user_id": "U12368",
+      "email": "emma.taylor5@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 5,
+            "time_spent_seconds": 110,
+            "date": "2025-04-16"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-16"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Adjustable Speed",
+          "Hands-Free"
+        ],
+        "disliked_features": [
+          "Rechargeable"
+        ],
+        "preferred_categories": [
+          "Home & Kitchen",
+          "Cooling"
+        ],
+        "rating_preference": 4.2,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "students"
+        ]
+      },
+      "context": {
+        "time_of_day": "afternoon",
+        "season": "fall"
+      }
+    },
+    {
+      "user_id": "U12369",
+      "email": "oliver.wilson6@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1043",
+            "view_count": 4,
+            "time_spent_seconds": 100,
+            "date": "2025-04-12"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1043",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-12"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.3,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12370",
+      "email": "lucy.martin7@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 3,
+            "time_spent_seconds": 95,
+            "date": "2025-04-14"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-14"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Hands-Free"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.6,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "outdoor users"
+        ]
+      },
+      "context": {
+        "time_of_day": "evening",
+        "season": "fall"
+      }
+    },
+    {
+      "user_id": "U12371",
+      "email": "jackson.harris8@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1040",
+            "view_count": 5,
+            "time_spent_seconds": 140,
+            "date": "2025-04-11"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1040",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-11"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Fans",
+          "Home & Kitchen"
+        ],
+        "rating_preference": 4.4,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "afternoon",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12372",
+      "email": "mia.perez9@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1042",
+            "view_count": 6,
+            "time_spent_seconds": 150,
+            "date": "2025-04-16"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1042",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-16"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Hands-Free",
+          "Rechargeable"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.2,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "outdoor users"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "spring"
+      }
+    },
+    {
+      "user_id": "U12373",
+      "email": "ava.baker10@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1044",
+            "view_count": 3,
+            "time_spent_seconds": 90,
+            "date": "2025-04-12"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1044",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-12"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Adjustable Speed",
+          "Rechargeable"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.3,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "fall"
+      }
+    },
+    {
+      "user_id": "U12374",
+      "email": "lucas.smith11@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 4,
+            "time_spent_seconds": 120,
+            "date": "2025-04-16"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-16"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Hands-Free",
+          "Rechargeable"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.6,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "students"
+        ]
+      },
+      "context": {
+        "time_of_day": "afternoon",
+        "season": "spring"
+      }
+    },
+    {
+      "user_id": "U12375",
+      "email": "charlotte.jones12@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1041",
+            "view_count": 5,
+            "time_spent_seconds": 135,
+            "date": "2025-04-14"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1041",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-14"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Cooling",
+          "Portable"
+        ],
+        "rating_preference": 4.0,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "outdoor users"
+        ]
+      },
+      "context": {
+        "time_of_day": "evening",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12376",
+      "email": "henry.williams13@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1040",
+            "view_count": 3,
+            "time_spent_seconds": 100,
+            "date": "2025-04-13"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1040",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-13"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Hands-Free"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Home & Kitchen",
+          "Cooling"
+        ],
+        "rating_preference": 4.5,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "students"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "fall"
+      }
+    },
+    {
+      "user_id": "U12377",
+      "email": "ella.morris14@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1038",
+            "view_count": 3,
+            "time_spent_seconds": 95,
+            "date": "2025-04-11"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1038",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-11"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Hands-Free",
+          "Rechargeable"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.4,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "afternoon",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12378",
+      "email": "benjamin.davis15@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1039",
+            "view_count": 4,
+            "time_spent_seconds": 115,
+            "date": "2025-04-16"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1039",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-16"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Adjustable Speed",
+          "Rechargeable"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.2,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "outdoor users"
+        ]
+      },
+      "context": {
+        "time_of_day": "evening",
+        "season": "spring"
+      }
+    },
+    {
+      "user_id": "U12379",
+      "email": "isabella.white16@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1043",
+            "view_count": 6,
+            "time_spent_seconds": 140,
+            "date": "2025-04-14"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1043",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-14"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Hands-Free"
+        ],
+        "disliked_features": [
+          "USB Charging"
+        ],
+        "preferred_categories": [
+          "Home & Kitchen",
+          "Cooling"
+        ],
+        "rating_preference": 4.0,
+        "warranty_preference": 2,
+        "target_audience_group": [
+          "students"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "spring"
+      }
+    },
+    {
+      "user_id": "U12380",
+      "email": "ethan.rodriguez17@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1041",
+            "view_count": 5,
+            "time_spent_seconds": 120,
+            "date": "2025-04-12"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1041",
+            "added_to_cart": true,
+            "purchase_status": "not_purchased",
+            "date": "2025-04-12"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Adjustable Speed",
+          "Rechargeable"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Portable",
+          "Cooling"
+        ],
+        "rating_preference": 4.2,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "commuters"
+        ]
+      },
+      "context": {
+        "time_of_day": "evening",
+        "season": "summer"
+      }
+    },
+    {
+      "user_id": "U12381",
+      "email": "olivia.evans18@example.com",
+      "interactions": {
+        "view_history": [
+          {
+            "product_id": "P1042",
+            "view_count": 4,
+            "time_spent_seconds": 110,
+            "date": "2025-04-11"
+          }
+        ],
+        "cart_additions": [
+          {
+            "product_id": "P1042",
+            "added_to_cart": true,
+            "purchase_status": "purchased",
+            "date": "2025-04-11"
+          }
+        ]
+      },
+      "preferences": {
+        "liked_features": [
+          "Rechargeable",
+          "Adjustable Speed"
+        ],
+        "disliked_features": [
+          "Hands-Free"
+        ],
+        "preferred_categories": [
+          "Cooling",
+          "Portable"
+        ],
+        "rating_preference": 4.3,
+        "warranty_preference": 1,
+        "target_audience_group": [
+          "students"
+        ]
+      },
+      "context": {
+        "time_of_day": "morning",
+        "season": "fall"
+      }
+    }
+  ]
