@@ -1,6 +1,6 @@
 # 🧠 AI Learning Roadmap for Business & Client Projects
 
-Hey Shuvo! This is your personal step-by-step guide to learn AI, build models, and offer services to clients using Python.
+This is the step-by-step guide to learn AI, build models, and offer services to clients using Python.
 
 ---
 
