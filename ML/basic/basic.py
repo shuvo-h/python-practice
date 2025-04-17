@@ -94,3 +94,11 @@ recommended_products = recommend_products(user_email, product_embeddings, user_e
 
 # Display recommended products
 print(recommended_products)
+
+
+"""
+- make online training sothat the model can incrementally learn and can provide realtime updated data from database
+- save the model sothat we can use it in api method
+- during training next time, do i need to do full training or is there any easy way to update existing training model
+- 
+"""
